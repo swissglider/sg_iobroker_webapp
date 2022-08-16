@@ -4,7 +4,7 @@ import {
     BreadcrumbItem,
     BreadcrumbLink,
     Flex,
-    FormLabel,
+    Text,
     Grid,
     GridItem,
     Heading,
@@ -61,36 +61,38 @@ const Layout = ({ children, title }: any) => {
                         )}
                     </GridItem>
                     <GridItem colSpan={3} rowSpan={1} justifySelf="center">
-                        <Heading as="h1" size={{ base: 'lg', md: 'xl', lg: '2xl' }}>
+                        <Heading as="h1" size={{ base: 'md', md: 'xl', lg: '2xl' }}>
                             {title}
                         </Heading>
                     </GridItem>
-                    <GridItem colSpan={{ base: 5, md: 1, lg: 1, xl: 1 }} rowSpan={1} justifySelf="center">
+                    <GridItem colSpan={{ base: 1, md: 1, lg: 1, xl: 1 }} rowSpan={1} justifySelf="right" mr={5}>
                         <Flex justify={'stretch'}>
-                            <FormLabel mb="0">Light</FormLabel>
+                            {/* <FormLabel mb="0">Light</FormLabel> */}
                             <Switch
                                 id="theme_changer"
                                 isChecked={colorMode === 'light' ? false : true}
                                 onChange={toggleColorMode}
                             />
-                            <FormLabel ml={3} mb="0">
+                            {/* <FormLabel ml={3} mb="0">
                                 Dark
-                            </FormLabel>
+                            </FormLabel> */}
                         </Flex>
                     </GridItem>
-                    <GridItem colSpan={5} rowSpan={1} justifySelf="center">
+                    <GridItem colSpan={5} rowSpan={1} justifySelf="center" paddingX={5}>
                         {router.asPath !== '/menu' ? (
                             <Breadcrumb>
                                 {router.route
                                     .split('/')
-                                    .slice(0, -1)
+                                    .slice(0, -2)
                                     .map((e, i, a) => (
                                         <BreadcrumbItem key={uuidv4()}>
                                             <BreadcrumbLink
                                                 as={NextLink}
                                                 href={i === 0 ? '/' : '' + a.slice(0, i + 1).join('/')}
                                             >
-                                                {e === '' ? 'home' : e}
+                                                <Text fontSize={{ base: 'sm', md: 'md', lg: 'lg' }}>
+                                                    {e === '' ? 'home' : e}
+                                                </Text>
                                             </BreadcrumbLink>
                                         </BreadcrumbItem>
                                     ))}

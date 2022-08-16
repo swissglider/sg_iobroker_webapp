@@ -16,7 +16,7 @@ const Home: NextPage = () => {
             <main className={styles.main}>
                 <h1 className={styles.title}>
                     Read{' '}
-                    <Link href="/config/devices/wandschalter">
+                    <Link href="/menu">
                         <a>this page!</a>
                     </Link>
                 </h1>

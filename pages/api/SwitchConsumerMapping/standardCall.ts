@@ -1,26 +1,28 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { NODERED_URL } from './Config';
 
-const nodeRedStandardCall = async (req: NextApiRequest, res: NextApiResponse) => {
+const standardCall = async (req: NextApiRequest, res: NextApiResponse) => {
+    // const _NODERED_URL = NODERED_URL;
+    const _NODERED_URL = 'http://192.168.90.10:1880/nodeRed-sg/0/';
     if (req.method === 'GET') {
         res.status(403).json('Get is not allowed');
     }
     if (req.method === 'POST') {
-        const configuration = req.body.config;
+        const data = req.body.data;
         const url = req.body.url;
+        console.log(data);
         if (!url) {
             res.status(400).json({ errorMSG: 'url musst be set' });
             return;
         }
-        if (!configuration) {
+        if (!data) {
             res.status(400).json({ errorMSG: 'config must be set' });
             return;
         }
 
         try {
-            const response = await fetch(NODERED_URL + url, {
+            const response = await fetch(_NODERED_URL + url, {
                 method: 'POST',
-                body: JSON.stringify(configuration),
+                body: JSON.stringify(data),
                 headers: {
                     'Content-Type': 'application/json',
                 },
@@ -34,4 +36,4 @@ const nodeRedStandardCall = async (req: NextApiRequest, res: NextApiResponse) =>
     }
 };
 
-export default nodeRedStandardCall;
+export default standardCall;

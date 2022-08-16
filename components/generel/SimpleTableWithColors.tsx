@@ -26,6 +26,7 @@ const SimpleTableWithColors = ({ tableTitle, tableCols, valueList, withoutContai
     const secondRowBG = useGetColor('gray.300');
     const errorRowBG = useGetColor('red.300');
     const colSpanTotal = tableCols.map((e) => e.colSpan).reduce((partialSum, a) => partialSum + a, 0);
+
     return (
         <SimpleContainerWithColor withoutContainer={withoutContainer ?? false}>
             {tableTitle && (
@@ -60,42 +61,45 @@ const SimpleTableWithColors = ({ tableTitle, tableCols, valueList, withoutContai
                     ))}
                 </Grid>
             )}
-            {Object.entries(valueList).map(([wlKey, wlValue]: [string, any], index: number) => (
-                <Grid
-                    key={uuidv4()}
-                    templateColumns={`repeat(${colSpanTotal}, 1fr)`}
-                    gap={1}
-                    // bg={index & 1 ? firstRowBG : secondRowBG}
-                    bg={wlValue.hasOwnProperty['error'] ? errorRowBG : index & 1 ? firstRowBG : secondRowBG}
-                    p={2}
-                >
-                    {tableCols.map((e) => (
-                        <GridItem key={uuidv4()} colSpan={e.colSpan} textAlign={e.align as any}>
-                            {e.type === 'text' ? (
-                                <Text fontSize={{ base: '12px', md: '16px', lg: '25px' }}>
-                                    {wlValue[e.param as string]}
-                                </Text>
-                            ) : e.type === 'textArray' && Array.isArray(e.param) ? (
-                                e.param.map((tt) => (
-                                    <Text key={uuidv4()} fontSize={{ base: '12px', md: '16px', lg: '25px' }}>
-                                        {wlValue[tt]}
+            {valueList &&
+                Object.entries(valueList).map(([wlKey, wlValue]: [string, any], index: number) => (
+                    <Grid
+                        key={uuidv4()}
+                        templateColumns={`repeat(${colSpanTotal}, 1fr)`}
+                        gap={1}
+                        // bg={index & 1 ? firstRowBG : secondRowBG}
+                        bg={wlValue.hasOwnProperty['error'] ? errorRowBG : index & 1 ? firstRowBG : secondRowBG}
+                        p={2}
+                    >
+                        {tableCols.map((e) => (
+                            <GridItem key={uuidv4()} colSpan={e.colSpan} textAlign={e.align as any}>
+                                {e.type === 'text' ? (
+                                    <Text fontSize={{ base: '12px', md: '16px', lg: '25px' }}>
+                                        {wlValue[e.param as string]}
                                     </Text>
-                                ))
-                            ) : (
-                                <IconButton
-                                    size={{ base: 'xs', md: 'lg', lg: 'lg' }}
-                                    variant={{ base: 'outline', md: 'ghost', lg: 'ghost' }}
-                                    colorScheme="teal"
-                                    aria-label=""
-                                    icon={e.icon ? e.icon : undefined}
-                                    onClick={e.onClick ? () => e.onClick(wlKey, wlValue) : () => {}}
-                                    disabled={e.hasOwnProperty('disabled') && e.disabled ? e.disabled(wlValue) : false}
-                                />
-                            )}
-                        </GridItem>
-                    ))}
-                </Grid>
-            ))}
+                                ) : e.type === 'textArray' && Array.isArray(e.param) ? (
+                                    e.param.map((tt) => (
+                                        <Text key={uuidv4()} fontSize={{ base: '12px', md: '16px', lg: '25px' }}>
+                                            {wlValue[tt]}
+                                        </Text>
+                                    ))
+                                ) : (
+                                    <IconButton
+                                        size={{ base: 'xs', md: 'lg', lg: 'lg' }}
+                                        variant={{ base: 'outline', md: 'ghost', lg: 'ghost' }}
+                                        colorScheme="teal"
+                                        aria-label=""
+                                        icon={e.icon ? e.icon : undefined}
+                                        onClick={e.onClick ? () => e.onClick(wlKey, wlValue) : () => {}}
+                                        disabled={
+                                            e.hasOwnProperty('disabled') && e.disabled ? e.disabled(wlValue) : false
+                                        }
+                                    />
+                                )}
+                            </GridItem>
+                        ))}
+                    </Grid>
+                ))}
         </SimpleContainerWithColor>
     );
 };
