@@ -46,7 +46,7 @@ const Menu = () => {
                             <NextLink href="/config" passHref>
                                 <Box display="flex" alignItems="baseline" paddingX={4} paddingY={2} borderBottom="1px">
                                     <Text fontWeight={'bold'} fontSize={{ base: '15px', md: '20px', lg: '30px' }}>
-                                        Configuration
+                                        Configuration - {process.env.NODE_ENV}
                                     </Text>
                                 </Box>
                             </NextLink>
