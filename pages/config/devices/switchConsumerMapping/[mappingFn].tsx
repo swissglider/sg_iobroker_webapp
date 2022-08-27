@@ -24,7 +24,7 @@ const SwitchConsumerMapping = () => {
     const { selectAddList = undefined } = data;
 
     const saveAdd = async (newMapping: T_Mapping): Promise<boolean> => {
-        const response = await fetch('/api/SwitchConsumerMapping/standardCall', {
+        const response = await fetch('/api/generel/standardCall', {
             method: 'POST',
             body: JSON.stringify({ data: newMapping, url: 'SwitchConsumerMapping/addSingleMapping' }),
             headers: {
@@ -54,7 +54,7 @@ const SwitchConsumerMapping = () => {
     };
 
     const onSaveChanges = async (oldMapping: T_Mapping, newMapping: T_Mapping): Promise<boolean> => {
-        const response = await fetch('/api/SwitchConsumerMapping/standardCall', {
+        const response = await fetch('/api/generel/standardCall', {
             method: 'POST',
             body: JSON.stringify({
                 data: { new: newMapping, old: oldMapping },
@@ -87,7 +87,7 @@ const SwitchConsumerMapping = () => {
     };
 
     const onDelete = async (mappingToDelete: T_Mapping): Promise<boolean> => {
-        const response = await fetch('/api/SwitchConsumerMapping/standardCall', {
+        const response = await fetch('/api/generel/standardCall', {
             method: 'POST',
             body: JSON.stringify({ data: mappingToDelete, url: 'SwitchConsumerMapping/deleteSingleMapping' }),
             headers: {

@@ -52,6 +52,7 @@ const SelectBoxSmart = ({
                 </Select>
             </FormControl>
             {newMapping[selectSubListIDType] &&
+                selectSubList.hasOwnProperty(newMapping[selectSubListIDType]) &&
                 Object.keys(selectSubList[newMapping[selectSubListIDType]].selectSubList).length > 0 &&
                 selectSubList &&
                 selectSubList.hasOwnProperty(newMapping[selectSubListIDType]) &&

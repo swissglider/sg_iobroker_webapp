@@ -14,7 +14,7 @@ const SimpleContainerWithColor = ({ children, withoutContainer }: any) => {
                     p={1}
                     paddingX={3}
                     rounded={15}
-                    paddingBottom={3}
+                    paddingBottom={4}
                 >
                     {children}
                 </Flex>
