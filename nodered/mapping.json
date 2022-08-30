@@ -1,0 +1,173 @@
+[
+    {
+        "configType": "mobilerschalterConfig",
+        "switchIOBrokerChannelPath": "mihome.0.devices.remote_b286acn01_158d0002f08bf5",
+        "styleButtonIOBrokerStatePath": "mihome.0.devices.remote_b286acn01_158d0002f08bf5.channel_0",
+        "consumerIOBrokerChannelPath": "hue.0.Zone_Eltern_Bett",
+        "consumerIOBrokerStatePath": "hue.0.Zone_Eltern_Bett.scene_hell"
+    },
+    {
+        "configType": "mobilerschalterConfig",
+        "switchIOBrokerChannelPath": "mihome.0.devices.switch_158d0002c6f420",
+        "styleButtonIOBrokerStatePath": "mihome.0.devices.switch_158d0002c6f420.double",
+        "consumerIOBrokerChannelPath": "hue.0.Zimmer_Arvian",
+        "consumerIOBrokerStatePath": "hue.0.Zimmer_Arvian.scene_hueessentialseffect"
+    },
+    {
+        "configType": "wandschalterConfig",
+        "switchIOBrokerChannelPath": "shelly.0.shellyplus1#441793a40f78#1.Relay0",
+        "style": "input.on",
+        "consumerIOBrokerChannelPath": "hue.0.Zone_Gang_oben",
+        "consumerIOBrokerStatePath": "hue.0.Zone_Gang_oben.scene_hell"
+    },
+    {
+        "switchIOBrokerChannelPath": "shelly.0.shellyplus2pm#0cdc7efaae7c#1.Relay0",
+        "style": "input.push",
+        "consumerIOBrokerChannelPath": "hue.0.Zimmer_Küche",
+        "consumerIOBrokerStatePath": "hue.0.Zimmer_Küche.scene_hell",
+        "configType": "wandschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "mihome.0.devices.remote_b286acn01_158d0002f08bf5",
+        "styleButtonIOBrokerStatePath": "mihome.0.devices.remote_b286acn01_158d0002f08bf5.channel_1",
+        "consumerIOBrokerChannelPath": "hue.0.Zone_Eltern_Schrank",
+        "consumerIOBrokerStatePath": "hue.0.Zone_Eltern_Schrank.scene_hell",
+        "configType": "mobilerschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "mihome.0.devices.remote_b286acn01_158d0002f08bf5",
+        "styleButtonIOBrokerStatePath": "mihome.0.devices.remote_b286acn01_158d0002f08bf5.channel_1_double",
+        "consumerIOBrokerChannelPath": "hue.0.Zimmer_Eltern",
+        "consumerIOBrokerStatePath": "hue.0.Zimmer_Eltern.scene_nordlichter",
+        "configType": "mobilerschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "mihome.0.devices.remote_b286acn01_158d0002f08bf5",
+        "styleButtonIOBrokerStatePath": "mihome.0.devices.remote_b286acn01_158d0002f08bf5.channel_0_double",
+        "consumerIOBrokerChannelPath": "hue.0.Zimmer_Eltern",
+        "consumerIOBrokerStatePath": "hue.0.Zimmer_Eltern.scene_erotik",
+        "configType": "mobilerschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "mihome.0.devices.remote_b286acn01_158d0002f08bf5",
+        "styleButtonIOBrokerStatePath": "mihome.0.devices.remote_b286acn01_158d0002f08bf5.dual_channel",
+        "consumerIOBrokerChannelPath": "hue.0.Zimmer_Eltern",
+        "consumerIOBrokerStatePath": "hue.0.Zimmer_Eltern.scene_hell",
+        "configType": "mobilerschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "mihome.0.devices.remote_b286acn01_158d0002f08bf5",
+        "styleButtonIOBrokerStatePath": "mihome.0.devices.remote_b286acn01_158d0002f08bf5.channel_1_long",
+        "consumerIOBrokerChannelPath": "hue.0.All.anyOn",
+        "configType": "mobilerschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "mihome.0.devices.switch_158d0001e832e8",
+        "styleButtonIOBrokerStatePath": "mihome.0.devices.switch_158d0001e832e8.click",
+        "consumerIOBrokerChannelPath": "hue.0.Zimmer_Büro",
+        "consumerIOBrokerStatePath": "hue.0.Zimmer_Büro.scene_hell",
+        "configType": "mobilerschalterConfig"
+    },
+    {
+        "configType": "wandschalterConfig",
+        "switchIOBrokerChannelPath": "shelly.0.shellyplus1#441793a3f214#1.Relay0",
+        "style": "input.push",
+        "consumerIOBrokerChannelPath": "hue.0.Zimmer_Büro",
+        "consumerIOBrokerStatePath": "hue.0.Zimmer_Büro.scene_chinatown"
+    },
+    {
+        "switchIOBrokerChannelPath": "shelly.0.shellyplus1#441793a409a4#1.Relay0",
+        "style": "input.push",
+        "consumerIOBrokerChannelPath": "hue.0.Zone_Esszimmer_Lampen",
+        "consumerIOBrokerStatePath": "hue.0.Zone_Esszimmer_Lampen.scene_hell",
+        "configType": "wandschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "shelly.0.shellyplus1#a8032abc99f4#1.Relay0",
+        "style": "input.push",
+        "consumerIOBrokerChannelPath": "hue.0.Zimmer_Stube",
+        "consumerIOBrokerStatePath": "hue.0.Zimmer_Stube.scene_hell",
+        "configType": "wandschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "mihome.0.devices.remote_b286acn01_158d00026eb5d9",
+        "styleButtonIOBrokerStatePath": "mihome.0.devices.remote_b286acn01_158d00026eb5d9.channel_0_double",
+        "consumerIOBrokerChannelPath": "hue.0.Zimmer_Stube",
+        "consumerIOBrokerStatePath": "hue.0.Zimmer_Stube.scene_hell",
+        "configType": "mobilerschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "shelly.0.shellyplus1#441793a40f78#1.Relay0",
+        "style": "input.push",
+        "consumerIOBrokerChannelPath": "hue.0.Zimmer_Büro",
+        "consumerIOBrokerStatePath": "hue.0.Zimmer_Büro.scene_lesen",
+        "configType": "wandschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "shelly.0.shellyplus1#441793a4b82c#1.Relay0",
+        "style": "input.push",
+        "consumerIOBrokerChannelPath": "hue.0.Zimmer_Gästezimmer",
+        "consumerIOBrokerStatePath": "hue.0.Zimmer_Gästezimmer.scene_ohne_flakern",
+        "configType": "wandschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "shelly.0.shellyplus1#441793a4af94#1.Relay0",
+        "style": "input.push",
+        "consumerIOBrokerChannelPath": "hue.0.Zimmer_Arvian",
+        "consumerIOBrokerStatePath": "hue.0.Zimmer_Arvian.scene_hell",
+        "configType": "wandschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "shelly.0.shellyplus2pm#485519a25318#1.Relay0",
+        "style": "input.push",
+        "consumerIOBrokerChannelPath": "hue.0.Zone_Eltern_Bett",
+        "consumerIOBrokerStatePath": "hue.0.Zone_Eltern_Bett.scene_hell",
+        "configType": "wandschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "shelly.0.shellyplus2pm#485519a25318#1.Relay1",
+        "style": "input.push",
+        "consumerIOBrokerChannelPath": "hue.0.Zone_Eltern_Schrank",
+        "consumerIOBrokerStatePath": "hue.0.Zone_Eltern_Schrank.scene_hell",
+        "configType": "wandschalterConfig"
+    },
+    {
+        "configType": "mobilerschalterConfig",
+        "switchIOBrokerChannelPath": "hue.0.Mobilerschalter_Büro_HueTab",
+        "styleButtonIOBrokerStatePath": "hue.0.Mobilerschalter_Büro_HueTab.lastupdated&%&18",
+        "consumerIOBrokerChannelPath": "hue.0.Zimmer_Büro",
+        "consumerIOBrokerStatePath": "hue.0.Zimmer_Büro.scene_chinatown"
+    },
+    {
+        "switchIOBrokerChannelPath": "hue.0.Mobilerschalter_Büro_HueTab",
+        "styleButtonIOBrokerStatePath": "hue.0.Mobilerschalter_Büro_HueTab.buttonevent&%&18",
+        "consumerIOBrokerChannelPath": "hue.0.Zimmer_Büro",
+        "consumerIOBrokerStatePath": "hue.0.Zimmer_Büro.scene_chinatown",
+        "configType": "mobilerschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "shelly.0.shellyplus1#a8032abc99f0#1.Relay0",
+        "style": "input.push",
+        "consumerIOBrokerChannelPath": "hue.0.RelaisSchalter_Jolina",
+        "configType": "lichtschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "shelly.0.shellyplus1#441793a477d8#1.Relay0",
+        "style": "input.push",
+        "consumerIOBrokerChannelPath": "hue.0.RelaisSchalter_Bad",
+        "configType": "lichtschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "shelly.0.shellyplus2pm#0cdc7efaae7c#1.Relay1",
+        "style": "input.push",
+        "consumerIOBrokerChannelPath": "hue.0.RelaisSchalter_Küche_Spot",
+        "configType": "lichtschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "mihome.0.devices.remote_b286acn01_158d00026eb5d9",
+        "styleButtonIOBrokerStatePath": "mihome.0.devices.remote_b286acn01_158d00026eb5d9.channel_0",
+        "consumerIOBrokerChannelPath": "hue.0.Zone_Stube_TV",
+        "configType": "mobilerschalterConfig",
+        "consumerIOBrokerStatePath": "hue.0.Zone_Stube_TV.scene_tv_szene"
+    }
+]
