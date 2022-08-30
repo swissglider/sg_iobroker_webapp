@@ -55,7 +55,10 @@ const getSelectAddList = ({ mappingFns, mappingFn_Str, mappings }: T_GetSelectAd
             selectAdapterName: valueSwitchIOBrokerChannelPath.adapterName,
             selectSubList: {},
         };
-        if (mappingFn_Str === 'Wandschalter' && valueSwitchIOBrokerChannelPath.hasOwnProperty('availableStyles')) {
+        if (
+            ['Wandschalter', 'Lichtschalter'].includes(mappingFn_Str) &&
+            valueSwitchIOBrokerChannelPath.hasOwnProperty('availableStyles')
+        ) {
             selectAddList.selectSubList[keySwitchIOBrokerChannelPath].selectSubListTitle = 'Style';
             selectAddList.selectSubList[keySwitchIOBrokerChannelPath].selectSubListPlaceholder = 'Select Style';
             selectAddList.selectSubList[keySwitchIOBrokerChannelPath].selectSubListIDType = 'style';

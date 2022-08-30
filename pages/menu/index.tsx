@@ -18,19 +18,21 @@ type MenuContent_T = {
 
 type Menu_T = MenuContent_T[];
 
-const MENUS: Menu_T = [
+export const MENUS: Menu_T = [
     {
         title: `Configuration - ${process.env.NODE_ENV}`,
         menuItems: [
             { link: '/config/devices/switchConsumerMapping/Wandschalter', text: 'Wand Schalter' },
             { link: '/config/devices/switchConsumerMapping/Mobilerschalter', text: 'Mobiler Schalter' },
+            { link: '/config/devices/switchConsumerMapping/Lichtschalter', text: 'Licht Schalter' },
             { btnUrl: 'SwitchConsumerMapping/getRefreshConfig', text: 'Refresh Config' },
         ],
     },
     {
         title: 'Helpers',
         menuItems: [
-            { link: '/helper/devices/shelly/all', text: 'All Shelly' },
+            { link: '/helper/devices/shelly/perDeviceType', text: 'Shelly per device type' },
+            { link: '/helper/devices/shelly/perChannelType', text: 'Shelly per channel type' },
             { btnUrl: 'shelly/init', text: 'Init Shelly Data' },
             { btnUrl: 'shelly/refreshShellies', text: 'Init Shellie' },
         ],
@@ -43,7 +45,7 @@ const MenuItemLink = ({ link, text }: MenuItem_T) => {
     if (link === undefined) return <></>;
 
     return (
-        <NextLink href={link} passHref>
+        <NextLink href={link + '?text=' + text} passHref>
             <Box
                 borderWidth="2px"
                 borderRadius="lg"

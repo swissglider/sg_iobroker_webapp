@@ -3,6 +3,8 @@ const getConfigTypeHelper = (mappingFn: string): string => {
         ? 'wandschalterConfig'
         : mappingFn === 'Mobilerschalter'
         ? 'mobilerschalterConfig'
+        : mappingFn === 'Lichtschalter'
+        ? 'lichtschalterConfig'
         : '';
 };
 

@@ -6,7 +6,7 @@ type T_Mapping_Must = {
 
 export type T_Mapping_Styled = T_Mapping_Must & {
     style: string;
-    configType: 'wandschalterConfig';
+    configType: 'wandschalterConfig' | 'lichtschalterConfig';
 };
 
 export type T_Mapping_StyledButton = T_Mapping_Must & {
@@ -25,7 +25,7 @@ export const type_Mapping_Check = (toTest: any): boolean => {
     }
     if (
         toTest.hasOwnProperty('configType') &&
-        toTest.configType === 'wandschalterConfig' &&
+        ['wandschalterConfig', 'lichtschalterConfig'].includes(toTest.configType) &&
         toTest.hasOwnProperty('style') &&
         toTest.style !== ''
     ) {

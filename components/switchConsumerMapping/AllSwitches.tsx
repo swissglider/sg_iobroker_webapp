@@ -49,12 +49,12 @@ const AllSwitches = ({ selectList, onSaveChanges, onDelete, saveAdd, mappingFn }
             Object.values(cSwitch.selectSubList).map((cStyle) => {
                 const lineOne = !cStyle.selectOrgMapping
                     ? '...'
-                    : cStyle.selectSubList[cStyle.selectOrgMapping.consumerIOBrokerChannelPath].selectName;
+                    : cStyle.selectSubList[cStyle.selectOrgMapping.consumerIOBrokerChannelPath]?.selectName;
                 const lineTwo =
                     cStyle.selectOrgMapping && cStyle.selectOrgMapping.consumerIOBrokerStatePath
                         ? cStyle.selectSubList[cStyle.selectOrgMapping.consumerIOBrokerChannelPath].selectSubList[
                               cStyle.selectOrgMapping.consumerIOBrokerStatePath
-                          ].selectName
+                          ]?.selectName
                         : undefined;
                 t.rows.push([
                     {
@@ -85,15 +85,15 @@ const AllSwitches = ({ selectList, onSaveChanges, onDelete, saveAdd, mappingFn }
         setSelectModalTitle(
             `${tmpModalFunction === 'add' ? 'Add' : 'Change'} ${parentList.selectName} : ${list.selectName}`,
         );
-        const configType = getConfigTypeHelper(mappingFn) as 'wandschalterConfig' | 'mobilerschalterConfig';
+        const configType = getConfigTypeHelper(mappingFn);
         if (tmpModalFunction === 'add') {
             setNewMapping({
                 switchIOBrokerChannelPath: parentList.selectID,
-                style: configType === 'wandschalterConfig' ? list.selectID : '',
+                style: ['wandschalterConfig', 'lichtschalter'].includes(configType) ? list.selectID : '',
                 styleButtonIOBrokerStatePath: configType === 'mobilerschalterConfig' ? list.selectID : '',
                 consumerIOBrokerChannelPath: '',
                 consumerIOBrokerStatePath: '',
-                configType: configType,
+                configType: configType as any,
             });
         }
         if (tmpModalFunction === 'change') {

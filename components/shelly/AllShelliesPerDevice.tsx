@@ -1,11 +1,7 @@
 import { Flex } from '@chakra-ui/react';
 import { useEffect, useState } from 'react';
 import SimpleTableWithColors, { T_TableCol } from '../generel/SimpleTableWithColors';
-
-export type T_AllShelliesProps = {
-    view: string;
-    allShellies: any;
-};
+import { T_AllShelliesProps } from './T_AllShelliesProps';
 
 const tableCols: T_TableCol = [
     {
@@ -45,7 +41,7 @@ const tableCols: T_TableCol = [
     },
 ];
 
-const AllShellies = ({ view, allShellies }: T_AllShelliesProps) => {
+const AllShelliesPerDevice = ({ view, allShellies }: T_AllShelliesProps) => {
     const [valueList, setValueList] = useState<any>();
 
     useEffect(() => {
@@ -86,4 +82,4 @@ const AllShellies = ({ view, allShellies }: T_AllShelliesProps) => {
     );
 };
 
-export default AllShellies;
+export default AllShelliesPerDevice;
