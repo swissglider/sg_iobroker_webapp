@@ -169,5 +169,71 @@
         "consumerIOBrokerChannelPath": "hue.0.Zone_Stube_TV",
         "configType": "mobilerschalterConfig",
         "consumerIOBrokerStatePath": "hue.0.Zone_Stube_TV.scene_tv_szene"
+    },
+    {
+        "switchIOBrokerChannelPath": "mihome.0.devices.switch_158d0002c6f4bb",
+        "styleButtonIOBrokerStatePath": "mihome.0.devices.switch_158d0002c6f4bb.long",
+        "consumerIOBrokerChannelPath": "hue.0.Zimmer_Wintergarten",
+        "configType": "mobilerschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "shelly.0.shellyplus1#a8032abe874c#1.Relay0",
+        "style": "input.push",
+        "consumerIOBrokerChannelPath": "hue.0.RelaisSchalter_Wintergarten",
+        "configType": "lichtschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "shelly.0.shellyplus1#441793a561b4#1.Relay0",
+        "style": "input.push",
+        "consumerIOBrokerChannelPath": "hue.0.RelaisSchalter_WiGa_Wärme",
+        "configType": "lichtschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "mihome.0.devices.switch_158d0002c6f4bb",
+        "styleButtonIOBrokerStatePath": "mihome.0.devices.switch_158d0002c6f4bb.click",
+        "consumerIOBrokerChannelPath": "shelly.0.shellyplus1#a8032abe874c#1.Relay0",
+        "configType": "mobilerschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "mihome.0.devices.switch_158d0002c6f4bb",
+        "styleButtonIOBrokerStatePath": "mihome.0.devices.switch_158d0002c6f4bb.double",
+        "consumerIOBrokerChannelPath": "shelly.0.shellyplus1#441793a561b4#1.Relay0",
+        "configType": "mobilerschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "shelly.0.shellyplus1#441793a477d8#1.Relay0",
+        "style": "switch",
+        "consumerIOBrokerChannelPath": "hue.0.RelaisSchalter_Bad",
+        "configType": "lichtschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "shelly.0.shellyplus1#a8032abc99f0#1.Relay0",
+        "style": "switch",
+        "consumerIOBrokerChannelPath": "hue.0.RelaisSchalter_Jolina",
+        "configType": "lichtschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "shelly.0.shellyplus2pm#0cdc7efaae7c#1.Relay1",
+        "style": "switch",
+        "consumerIOBrokerChannelPath": "hue.0.RelaisSchalter_Küche_Spot",
+        "configType": "lichtschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "shelly.0.shellyplus1#a8032abe874c#1.Relay0",
+        "style": "switch",
+        "consumerIOBrokerChannelPath": "hue.0.RelaisSchalter_Wintergarten",
+        "configType": "lichtschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "shelly.0.shellyplus1#441793a561b4#1.Relay0",
+        "style": "switch",
+        "consumerIOBrokerChannelPath": "hue.0.RelaisSchalter_WiGa_Wärme",
+        "configType": "lichtschalterConfig"
+    },
+    {
+        "switchIOBrokerChannelPath": "hue.0.Mobilerschalter_Büro_HueTab",
+        "styleButtonIOBrokerStatePath": "hue.0.Mobilerschalter_Büro_HueTab.lastupdated&%&34",
+        "consumerIOBrokerChannelPath": "hue.0.Zimmer_Büro",
+        "configType": "mobilerschalterConfig"
     }
 ]
