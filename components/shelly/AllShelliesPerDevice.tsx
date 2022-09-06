@@ -45,7 +45,6 @@ const AllShelliesPerDevice = ({ view, allShellies }: T_AllShelliesProps) => {
     const [valueList, setValueList] = useState<any>();
 
     useEffect(() => {
-        console.log(allShellies);
         const tVL = Object.values(allShellies).map((e: any) => ({
             name: e.gen2 ? e.config?.sys?.device?.name ?? e._http_tcp.name : e.config.name,
             ip: e.ip,
