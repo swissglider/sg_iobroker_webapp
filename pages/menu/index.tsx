@@ -33,6 +33,7 @@ export const MENUS: Menu_T = [
         menuItems: [
             { link: '/helper/devices/shelly/perDeviceType', text: 'Shelly per device type' },
             { link: '/helper/devices/shelly/perChannelType', text: 'Shelly per channel type' },
+            { link: '/helper/devices/shelly/notAvailableShellies', text: 'Shelly not available ?' },
             { btnUrl: 'shelly/init', text: 'Init Shelly Data' },
             { btnUrl: 'shelly/refreshShellies', text: 'Init Shellie' },
         ],

@@ -40,6 +40,14 @@
         "env": []
     },
     {
+        "id": "8092dbfd87934e7f",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "f3fb093646919445",
         "type": "subflow",
         "name": "SwitchConsumerMappingDevice",
@@ -300,7 +308,7 @@
             "fill": "#bfdbef",
             "color": "#0070c0"
         },
-        "nodes": ["05dd875338a9d5ea", "0e5f0d5f837c0752", "42ab86d2ccb639a9", "14d9b33db857ad02"],
+        "nodes": ["05dd875338a9d5ea", "0e5f0d5f837c0752", "14d9b33db857ad02", "1613cae886b4eaaf"],
         "x": 254,
         "y": 19,
         "w": 592,
@@ -376,7 +384,9 @@
             "0caae78f4913516d"
         ],
         "x": 504,
-        "y": 359
+        "y": 359,
+        "w": 912,
+        "h": 82
     },
     {
         "id": "4eddd4e8ac78ecab",
@@ -408,7 +418,9 @@
             "71feff7f1fa128e8"
         ],
         "x": 194,
-        "y": 79
+        "y": 79,
+        "w": 1212,
+        "h": 242
     },
     {
         "id": "fb8ff4807cb75bd2",
@@ -424,7 +436,9 @@
         },
         "nodes": ["45986278e39e3ddd", "d8a4f609a9263903", "01de03db70edd1ff"],
         "x": 194,
-        "y": 359
+        "y": 359,
+        "w": 292,
+        "h": 82
     },
     {
         "id": "d632100434f155f7",
@@ -502,9 +516,7 @@
         },
         "nodes": ["412fa5d342764b09", "c9cba3a3f5432784", "8e71790c1ddb2c56"],
         "x": 74,
-        "y": 499,
-        "w": 262,
-        "h": 82
+        "y": 499
     },
     {
         "id": "ddab64da02903325",
@@ -623,9 +635,7 @@
             "4816f1f0938adefa"
         ],
         "x": 74,
-        "y": 959,
-        "w": 1032,
-        "h": 122
+        "y": 959
     },
     {
         "id": "d7d1ce4144ef0cfd",
@@ -1177,7 +1187,9 @@
             "f420af6a154bd258"
         ],
         "x": 34,
-        "y": 59
+        "y": 59,
+        "w": 892,
+        "h": 142
     },
     {
         "id": "9e89abb4f8cdeec8",
@@ -1194,7 +1206,9 @@
         },
         "nodes": ["5382e1a7820f9322", "abbc7c532288d85f", "7593b7e03a9d4625"],
         "x": 34,
-        "y": 239
+        "y": 239,
+        "w": 352,
+        "h": 122
     },
     {
         "id": "1b89fcdd6bfe016f",
@@ -1302,7 +1316,7 @@
             "label": true,
             "color": "#001f60"
         },
-        "nodes": ["1703d30bb5827cd6", "068e95bd023fe48f", "e53ac6a1ffc5a839", "be30928444179890"],
+        "nodes": ["1703d30bb5827cd6", "e53ac6a1ffc5a839", "be30928444179890", "95770af22f3037a9"],
         "x": 44,
         "y": 1099,
         "w": 482,
@@ -1319,7 +1333,7 @@
             "label": true,
             "color": "#001f60"
         },
-        "nodes": ["16d876078f2a8d63", "12f1587fbe11f9f1", "387f55d6f30db5b4", "0dae7e0205070f5a"],
+        "nodes": ["16d876078f2a8d63", "387f55d6f30db5b4", "0dae7e0205070f5a", "2d46628cc9442a3d"],
         "x": 44,
         "y": 1199,
         "w": 482,
@@ -1336,7 +1350,7 @@
             "label": true,
             "color": "#001f60"
         },
-        "nodes": ["405e3f50dbfeeddf", "76d22ef5ae654ec2", "5c6dda08fa80182b", "97b0088674c7835e"],
+        "nodes": ["405e3f50dbfeeddf", "5c6dda08fa80182b", "97b0088674c7835e", "604f558cc8fd861d"],
         "x": 44,
         "y": 1299,
         "w": 472,
@@ -1353,7 +1367,7 @@
             "label": true,
             "color": "#001f60"
         },
-        "nodes": ["0c5a662ad7225d96", "386e28aadb753ae1", "ed392d7e0e0d2193", "87a530167ac36a87"],
+        "nodes": ["0c5a662ad7225d96", "ed392d7e0e0d2193", "87a530167ac36a87", "abcbce35f32c404f"],
         "x": 44,
         "y": 1399,
         "w": 472,
@@ -1370,7 +1384,7 @@
             "label": true,
             "color": "#001f60"
         },
-        "nodes": ["4b505041d90c0a46", "ca9da79fffe139a9", "f3c193c1b31e367f", "4be28a2e5ca89006"],
+        "nodes": ["4b505041d90c0a46", "f3c193c1b31e367f", "4be28a2e5ca89006", "a52b33ff5c9f63fd"],
         "x": 544,
         "y": 1099,
         "w": 472,
@@ -1387,7 +1401,7 @@
             "label": true,
             "color": "#001f60"
         },
-        "nodes": ["cbde744a5f797bd4", "204d977218e7f438", "a5a1d13582c9973f", "e25f0008fc39639b"],
+        "nodes": ["cbde744a5f797bd4", "a5a1d13582c9973f", "e25f0008fc39639b", "b97c438f80e5eae6"],
         "x": 544,
         "y": 1199,
         "w": 472,
@@ -1407,14 +1421,14 @@
         "nodes": [
             "c0559ff75137f97a",
             "de98fc096141cb11",
-            "504bfee405228205",
             "6f69052eb1c78f03",
             "96246328b9441322",
             "87a7e889552d5bc5",
-            "cf6d6d2364ad0c91",
-            "60abfa17f7220d13",
             "1d2f4b6591a401f5",
-            "2c267bd40590df8c"
+            "2c267bd40590df8c",
+            "1e6e898df2caac1f",
+            "ccc00ae42d2aefd7",
+            "7d752c9e77d2c23b"
         ],
         "x": 44,
         "y": 1739,
@@ -1437,15 +1451,17 @@
             "2b78f1d8241ad02e",
             "404e6db842f1f949",
             "bc0e8a892a361eba",
-            "08aaa60b54688648",
             "13321e1fd63350b9",
             "e5a6cd4aac18ef5c",
-            "8da4726c53632d98"
+            "8da4726c53632d98",
+            "139cdeafeb555414",
+            "080bac8a54c58c6c",
+            "39299f1d1c0ac717"
         ],
         "x": 544,
         "y": 1299,
-        "w": 472,
-        "h": 162
+        "w": 622,
+        "h": 202
     },
     {
         "id": "e0df35a1487a9926",
@@ -1524,7 +1540,6 @@
             "3a6e9d904dbef7bd",
             "4c736ec1e8076a35",
             "e3955ec7de1dd5f0",
-            "7cbd0c3690ac5ba5",
             "822d62f1d5cc3cc3",
             "86259027ec165607",
             "69cc5e7b877e5c80",
@@ -1536,7 +1551,8 @@
             "301a2cb06e0af6a8",
             "7d5ae7b0f3927507",
             "6154c66acbd494b3",
-            "ae8b3927738e1e75"
+            "ae8b3927738e1e75",
+            "e3b4596d072762e8"
         ],
         "x": 54,
         "y": 179,
@@ -1563,13 +1579,13 @@
             "ddf3a0f4459e8445",
             "0d2c73a5ed40a3fd",
             "d3f235aa25639161",
-            "e3c453ea694b1e79",
             "9e083eedc6048ce9",
             "26a1c51e8de4a96b",
-            "70eed40310b8dd44"
+            "70eed40310b8dd44",
+            "7567e68d2c8651b0"
         ],
         "x": 44,
-        "y": 1491.5,
+        "y": 1511.5,
         "w": 1122,
         "h": 209.5
     },
@@ -1586,11 +1602,11 @@
         },
         "nodes": [
             "491d439b8d9da2fc",
-            "1a25576d03b03b83",
             "8a796b928016eb05",
             "0a84c08b88417111",
             "9c97a9722e82ec67",
-            "8744c85f90d76172"
+            "8744c85f90d76172",
+            "aa32493abd5616a8"
         ],
         "x": 44,
         "y": 1999,
@@ -1610,7 +1626,9 @@
         },
         "nodes": ["330de1706bad550f", "d5cdd6a49ffb3df3", "3c232d9d2b3b92c3"],
         "x": 74,
-        "y": 59
+        "y": 59,
+        "w": 672,
+        "h": 82
     },
     {
         "id": "200e32c064211977",
@@ -1666,7 +1684,7 @@
             "e476a22478c9805e",
             "bc7b0182c9832c76"
         ],
-        "x": 1174,
+        "x": 1194,
         "y": 119,
         "w": 872,
         "h": 262
@@ -1684,9 +1702,7 @@
         },
         "nodes": ["66f8273f56f877e0", "daf1f413e80e0fe5", "a3aca04773d9dddf", "5ed35c680b030820"],
         "x": 354,
-        "y": 499,
-        "w": 832,
-        "h": 82
+        "y": 499
     },
     {
         "id": "dc59e02c193d10fc",
@@ -1720,9 +1736,7 @@
             "ac0c7db814fd4c95"
         ],
         "x": 114,
-        "y": 79,
-        "w": 1282,
-        "h": 322
+        "y": 79
     },
     {
         "id": "90623cc58d225d1e",
@@ -1797,7 +1811,9 @@
             "fe7673f711491123"
         ],
         "x": 204,
-        "y": 479
+        "y": 479,
+        "w": 1082,
+        "h": 142
     },
     {
         "id": "f3136e65fb993a51",
@@ -1825,10 +1841,17 @@
             "fill": "#e3f3d3",
             "color": "#001f60"
         },
-        "nodes": ["72381c7c2af75c24", "a0ca233e289ca348", "635e8cd4c862069a", "a7be28ce70983c18", "1d5e869eac4003a0"],
-        "x": 514,
+        "nodes": [
+            "72381c7c2af75c24",
+            "a0ca233e289ca348",
+            "635e8cd4c862069a",
+            "a7be28ce70983c18",
+            "1d5e869eac4003a0",
+            "f54e10273f6b3f9b"
+        ],
+        "x": 474,
         "y": 139,
-        "w": 632,
+        "w": 672,
         "h": 202
     },
     {
@@ -1857,9 +1880,7 @@
             "902626641c4a421a"
         ],
         "x": 74,
-        "y": 593,
-        "w": 2062,
-        "h": 328
+        "y": 593
     },
     {
         "id": "ba402f528508705f",
@@ -1896,9 +1917,7 @@
             "048e53a9707e1a07"
         ],
         "x": 74,
-        "y": 1099,
-        "w": 1512,
-        "h": 202
+        "y": 1099
     },
     {
         "id": "274b3e9faa670ed3",
@@ -2078,9 +2097,7 @@
             "3c8322198b834078"
         ],
         "x": 1214,
-        "y": 619,
-        "w": 652,
-        "h": 202
+        "y": 619
     },
     {
         "id": "ee9f4c404c42cdc0",
@@ -2136,6 +2153,31 @@
         "h": 122
     },
     {
+        "id": "4d7c1fa91a8c2dc9",
+        "type": "group",
+        "z": "8e2e889e14c077b8",
+        "name": "HTTP-Requests",
+        "style": {
+            "label": true,
+            "stroke": "#6f2fa0",
+            "fill": "#dbcbe7",
+            "color": "#001f60"
+        },
+        "nodes": [
+            "1fb7c6e5486a195b",
+            "e08aac8da2b0dd69",
+            "e55ec427fc3901c7",
+            "2ac51ca456ea64ce",
+            "5644e1de0c90404e",
+            "26d83159224732c8",
+            "f60eb0e8012c8dd5"
+        ],
+        "x": 744,
+        "y": 1999,
+        "w": 362,
+        "h": 182
+    },
+    {
         "id": "4d5346b1da2e8891",
         "type": "junction",
         "z": "28b7f32dd29b3136",
@@ -2176,7 +2218,7 @@
         "type": "junction",
         "z": "fc48a9f1952c9276",
         "g": "053e34d5a972ebc2",
-        "x": 1360,
+        "x": 1380,
         "y": 240,
         "wires": [["5144aadfdd14fe34", "0bb836a207453a20", "5377dae2bc6241e5", "978cf943759df0e2"]]
     },
@@ -2294,6 +2336,15 @@
         "x": 1200,
         "y": 800,
         "wires": [["d6a43d1501edb4d5"]]
+    },
+    {
+        "id": "f54e10273f6b3f9b",
+        "type": "junction",
+        "z": "fc48a9f1952c9276",
+        "g": "d67285bc34ef4b18",
+        "x": 960,
+        "y": 240,
+        "wires": [["1d5e869eac4003a0"]]
     },
     {
         "id": "79f48094a950d368",
@@ -3657,7 +3708,7 @@
         "type": "catch",
         "z": "2a5c9ff66c4fad1d",
         "name": "getConfigFunction - Timeout Error",
-        "scope": ["afb59d608da70dd8"],
+        "scope": [],
         "uncaught": false,
         "x": 1580,
         "y": 320,
@@ -6382,7 +6433,7 @@
             },
             {
                 "p": "__flow_scriptVersion",
-                "v": "0.30",
+                "v": "0.33",
                 "vt": "str"
             },
             {
@@ -6439,7 +6490,7 @@
         "libs": [],
         "x": 390,
         "y": 120,
-        "wires": [["42ab86d2ccb639a9"]],
+        "wires": [["1613cae886b4eaaf"]],
         "info": "stores environment variables in Flow Context"
     },
     {
@@ -6541,28 +6592,7 @@
         "libs": [],
         "x": 200,
         "y": 1140,
-        "wires": [["068e95bd023fe48f"]]
-    },
-    {
-        "id": "068e95bd023fe48f",
-        "type": "http request",
-        "z": "8e2e889e14c077b8",
-        "g": "7529fb642014bbe2",
-        "name": "",
-        "method": "POST",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 370,
-        "y": 1140,
-        "wires": [["be30928444179890"]]
+        "wires": [["95770af22f3037a9"]]
     },
     {
         "id": "e53ac6a1ffc5a839",
@@ -6614,28 +6644,7 @@
         "libs": [],
         "x": 200,
         "y": 1240,
-        "wires": [["12f1587fbe11f9f1"]]
-    },
-    {
-        "id": "12f1587fbe11f9f1",
-        "type": "http request",
-        "z": "8e2e889e14c077b8",
-        "g": "3e3159a06022c48d",
-        "name": "",
-        "method": "GET",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 370,
-        "y": 1240,
-        "wires": [["0dae7e0205070f5a"]]
+        "wires": [["2d46628cc9442a3d"]]
     },
     {
         "id": "387f55d6f30db5b4",
@@ -6687,28 +6696,7 @@
         "libs": [],
         "x": 200,
         "y": 1340,
-        "wires": [["76d22ef5ae654ec2"]]
-    },
-    {
-        "id": "76d22ef5ae654ec2",
-        "type": "http request",
-        "z": "8e2e889e14c077b8",
-        "g": "b4c5697408538620",
-        "name": "",
-        "method": "GET",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 370,
-        "y": 1340,
-        "wires": [["5c6dda08fa80182b"]]
+        "wires": [["604f558cc8fd861d"]]
     },
     {
         "id": "5c6dda08fa80182b",
@@ -6760,28 +6748,7 @@
         "libs": [],
         "x": 200,
         "y": 1440,
-        "wires": [["386e28aadb753ae1"]]
-    },
-    {
-        "id": "386e28aadb753ae1",
-        "type": "http request",
-        "z": "8e2e889e14c077b8",
-        "g": "1e09ef214bd99392",
-        "name": "",
-        "method": "GET",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 370,
-        "y": 1440,
-        "wires": [["ed392d7e0e0d2193"]]
+        "wires": [["abcbce35f32c404f"]]
     },
     {
         "id": "ed392d7e0e0d2193",
@@ -6833,28 +6800,7 @@
         "libs": [],
         "x": 700,
         "y": 1140,
-        "wires": [["ca9da79fffe139a9"]]
-    },
-    {
-        "id": "ca9da79fffe139a9",
-        "type": "http request",
-        "z": "8e2e889e14c077b8",
-        "g": "6d481a8e9c07d8b9",
-        "name": "",
-        "method": "GET",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 870,
-        "y": 1140,
-        "wires": [["f3c193c1b31e367f"]]
+        "wires": [["a52b33ff5c9f63fd"]]
     },
     {
         "id": "f3c193c1b31e367f",
@@ -6906,28 +6852,7 @@
         "libs": [],
         "x": 700,
         "y": 1240,
-        "wires": [["204d977218e7f438"]]
-    },
-    {
-        "id": "204d977218e7f438",
-        "type": "http request",
-        "z": "8e2e889e14c077b8",
-        "g": "453e87f282e67248",
-        "name": "",
-        "method": "GET",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 870,
-        "y": 1240,
-        "wires": [["a5a1d13582c9973f"]]
+        "wires": [["b97c438f80e5eae6"]]
     },
     {
         "id": "a5a1d13582c9973f",
@@ -7003,28 +6928,7 @@
         "libs": [],
         "x": 340,
         "y": 1780,
-        "wires": [["504bfee405228205"]]
-    },
-    {
-        "id": "504bfee405228205",
-        "type": "http request",
-        "z": "8e2e889e14c077b8",
-        "g": "55fccb29f8ea2410",
-        "name": "",
-        "method": "GET",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 510,
-        "y": 1780,
-        "wires": [["6f69052eb1c78f03"]]
+        "wires": [["1e6e898df2caac1f"]]
     },
     {
         "id": "6f69052eb1c78f03",
@@ -7040,7 +6944,7 @@
         "libs": [],
         "x": 690,
         "y": 1780,
-        "wires": [["60abfa17f7220d13"]]
+        "wires": [["ccc00ae42d2aefd7"]]
     },
     {
         "id": "96246328b9441322",
@@ -7072,49 +6976,7 @@
         "libs": [],
         "x": 230,
         "y": 1840,
-        "wires": [["cf6d6d2364ad0c91"]]
-    },
-    {
-        "id": "cf6d6d2364ad0c91",
-        "type": "http request",
-        "z": "8e2e889e14c077b8",
-        "g": "55fccb29f8ea2410",
-        "name": "",
-        "method": "GET",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 430,
-        "y": 1840,
-        "wires": [["96246328b9441322"]]
-    },
-    {
-        "id": "60abfa17f7220d13",
-        "type": "http request",
-        "z": "8e2e889e14c077b8",
-        "g": "55fccb29f8ea2410",
-        "name": "",
-        "method": "GET",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 870,
-        "y": 1780,
-        "wires": [["87a7e889552d5bc5"]]
+        "wires": [["7d752c9e77d2c23b"]]
     },
     {
         "id": "d8c6cd1bce973b8b",
@@ -7158,14 +7020,14 @@
         "type": "function",
         "z": "8e2e889e14c077b8",
         "g": "fed38b316335d6dc",
-        "name": "Script.Create",
-        "func": "msg.url = `${msg.Shelly._http_tcp.url}/rpc`;\nmsg.payload = [\n    { \"id\": 1, \"method\": \"Script.Create\", \"params\": { \"name\": flow.get('__flow_scriptVersionName') } },\n    { \"id\": 1, \"method\": \"Script.PutCode\", \"params\": { \"id\": 1, \"code\": `console.log('Wandschalter-Script: ${flow.get('scriptVersionName')}')` } },\n]\n\nreturn msg;",
+        "name": "Script.Create - Version",
+        "func": "msg.url = `${msg.Shelly._http_tcp.url}/rpc`;\nmsg.payload = [\n    { \"id\": 1, \"method\": \"Script.Create\", \"params\": { \"name\": flow.get('__flow_scriptVersionName') } },\n    { \"id\": 1, \"method\": \"Script.PutCode\", \"params\": { \"id\": 1, \"code\": `console.log('Wandschalter-Script: ${flow.get('__flow_scriptVersionName')}')` } },\n]\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 690,
+        "x": 720,
         "y": 1420,
         "wires": [["8da4726c53632d98"]]
     },
@@ -7177,8 +7039,8 @@
         "name": "link out 11",
         "mode": "return",
         "links": [],
-        "x": 975,
-        "y": 1420,
+        "x": 1125,
+        "y": 1460,
         "wires": []
     },
     {
@@ -7208,28 +7070,7 @@
         "libs": [],
         "x": 680,
         "y": 1340,
-        "wires": [["08aaa60b54688648"]]
-    },
-    {
-        "id": "08aaa60b54688648",
-        "type": "http request",
-        "z": "8e2e889e14c077b8",
-        "g": "fed38b316335d6dc",
-        "name": "",
-        "method": "POST",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 830,
-        "y": 1340,
-        "wires": [["13321e1fd63350b9"]]
+        "wires": [["139cdeafeb555414"]]
     },
     {
         "id": "13321e1fd63350b9",
@@ -7246,27 +7087,6 @@
         "x": 690,
         "y": 1380,
         "wires": [["e5a6cd4aac18ef5c"]]
-    },
-    {
-        "id": "42ab86d2ccb639a9",
-        "type": "http request",
-        "z": "8e2e889e14c077b8",
-        "g": "608bcb4eabe9512f",
-        "name": "get Instance from iob",
-        "method": "GET",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 600,
-        "y": 120,
-        "wires": [["14d9b33db857ad02"]]
     },
     {
         "id": "14d9b33db857ad02",
@@ -7506,7 +7326,7 @@
         "libs": [],
         "x": 690,
         "y": 280,
-        "wires": [["7cbd0c3690ac5ba5"]]
+        "wires": [["e3b4596d072762e8"]]
     },
     {
         "id": "e3955ec7de1dd5f0",
@@ -7522,28 +7342,7 @@
         "libs": [],
         "x": 690,
         "y": 320,
-        "wires": [["7cbd0c3690ac5ba5"]]
-    },
-    {
-        "id": "7cbd0c3690ac5ba5",
-        "type": "http request",
-        "z": "8e2e889e14c077b8",
-        "g": "60eaf3183a2f1b08",
-        "name": "",
-        "method": "GET",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 890,
-        "y": 300,
-        "wires": [["822d62f1d5cc3cc3"]]
+        "wires": [["e3b4596d072762e8"]]
     },
     {
         "id": "822d62f1d5cc3cc3",
@@ -7981,7 +7780,7 @@
         "name": "_init - Switch.SetConfig",
         "links": [],
         "x": 85,
-        "y": 1540,
+        "y": 1560,
         "wires": [["3a544423c358835b"]]
     },
     {
@@ -7997,8 +7796,8 @@
         "finalize": "",
         "libs": [],
         "x": 420,
-        "y": 1660,
-        "wires": [["e3c453ea694b1e79"]]
+        "y": 1680,
+        "wires": [["7567e68d2c8651b0"]]
     },
     {
         "id": "3a544423c358835b",
@@ -8021,7 +7820,7 @@
         "to": "",
         "reg": false,
         "x": 170,
-        "y": 1540,
+        "y": 1560,
         "wires": [["fdcadb4d8c2be756"]]
     },
     {
@@ -8037,7 +7836,7 @@
         "stream": false,
         "addname": "key",
         "x": 310,
-        "y": 1540,
+        "y": 1560,
         "wires": [["ddf3a0f4459e8445"]]
     },
     {
@@ -8049,7 +7848,7 @@
         "mode": "return",
         "links": [],
         "x": 1125,
-        "y": 1640,
+        "y": 1660,
         "wires": []
     },
     {
@@ -8079,7 +7878,7 @@
         "repair": false,
         "outputs": 3,
         "x": 450,
-        "y": 1540,
+        "y": 1560,
         "wires": [["0d2c73a5ed40a3fd", "26a1c51e8de4a96b"], ["d3f235aa25639161"], ["26a1c51e8de4a96b"]],
         "outputLabels": ["cover", "switch", "sonstige"]
     },
@@ -8098,7 +7897,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 770,
-        "y": 1540,
+        "y": 1560,
         "wires": []
     },
     {
@@ -8125,30 +7924,9 @@
         "repair": false,
         "outputs": 2,
         "x": 190,
-        "y": 1620,
+        "y": 1640,
         "wires": [["9e083eedc6048ce9"], ["eff53443c07a73d3"]],
         "outputLabels": ["Lichtschalter", "Wandschalter"]
-    },
-    {
-        "id": "e3c453ea694b1e79",
-        "type": "http request",
-        "z": "8e2e889e14c077b8",
-        "g": "7f2c2b9883eaece7",
-        "name": "",
-        "method": "GET",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 670,
-        "y": 1640,
-        "wires": [["70eed40310b8dd44"]]
     },
     {
         "id": "9e083eedc6048ce9",
@@ -8163,8 +7941,8 @@
         "finalize": "",
         "libs": [],
         "x": 410,
-        "y": 1600,
-        "wires": [["e3c453ea694b1e79"]]
+        "y": 1620,
+        "wires": [["7567e68d2c8651b0"]]
     },
     {
         "id": "26a1c51e8de4a96b",
@@ -8188,7 +7966,7 @@
         "reduceInitType": "",
         "reduceFixup": "",
         "x": 1010,
-        "y": 1600,
+        "y": 1620,
         "wires": [["5b488310419150a6"]]
     },
     {
@@ -8201,7 +7979,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 840,
-        "y": 1640,
+        "y": 1660,
         "wires": [["26a1c51e8de4a96b"]]
     },
     {
@@ -8218,29 +7996,8 @@
         "libs": [],
         "x": 230,
         "y": 2040,
-        "wires": [["9c97a9722e82ec67"], ["1a25576d03b03b83"]],
+        "wires": [["9c97a9722e82ec67"], ["aa32493abd5616a8"]],
         "outputLabels": ["finish", "next"]
-    },
-    {
-        "id": "1a25576d03b03b83",
-        "type": "http request",
-        "z": "8e2e889e14c077b8",
-        "g": "19244311e3ab0ec2",
-        "name": "",
-        "method": "POST",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 290,
-        "y": 2080,
-        "wires": [["8a796b928016eb05"]]
     },
     {
         "id": "8a796b928016eb05",
@@ -8309,7 +8066,7 @@
         "links": ["0a84c08b88417111"],
         "linkType": "static",
         "timeout": "30",
-        "x": 850,
+        "x": 910,
         "y": 1380,
         "wires": [["2b78f1d8241ad02e"]]
     },
@@ -8322,9 +8079,9 @@
         "links": ["0a84c08b88417111"],
         "linkType": "static",
         "timeout": "30",
-        "x": 850,
+        "x": 910,
         "y": 1420,
-        "wires": [["404e6db842f1f949"]]
+        "wires": [["080bac8a54c58c6c"]]
     },
     {
         "id": "b08c9d2a93acbcfa",
@@ -8457,6 +8214,341 @@
         "x": 650,
         "y": 520,
         "wires": [["e4d57f080b2c487f"], ["44877b4fa4350589"]]
+    },
+    {
+        "id": "1fb7c6e5486a195b",
+        "type": "catch",
+        "z": "8e2e889e14c077b8",
+        "g": "4d7c1fa91a8c2dc9",
+        "name": "HTTP-Request - Timeout Error",
+        "scope": [
+            "e08aac8da2b0dd69",
+            "e55ec427fc3901c7",
+            "2ac51ca456ea64ce",
+            "5644e1de0c90404e",
+            "26d83159224732c8",
+            "f60eb0e8012c8dd5"
+        ],
+        "uncaught": false,
+        "x": 910,
+        "y": 2140,
+        "wires": [["8eff3f587b2778ed"]]
+    },
+    {
+        "id": "e08aac8da2b0dd69",
+        "type": "link in",
+        "z": "8e2e889e14c077b8",
+        "g": "4d7c1fa91a8c2dc9",
+        "name": "helper_HTTP-Request_Get",
+        "links": [],
+        "x": 785,
+        "y": 2040,
+        "wires": [["e55ec427fc3901c7"]]
+    },
+    {
+        "id": "e55ec427fc3901c7",
+        "type": "http request",
+        "z": "8e2e889e14c077b8",
+        "g": "4d7c1fa91a8c2dc9",
+        "name": "HTTP-Request_Get",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 920,
+        "y": 2040,
+        "wires": [["2ac51ca456ea64ce"]]
+    },
+    {
+        "id": "2ac51ca456ea64ce",
+        "type": "link out",
+        "z": "8e2e889e14c077b8",
+        "g": "4d7c1fa91a8c2dc9",
+        "name": "HTTP_Request_Get-Out",
+        "mode": "return",
+        "links": [],
+        "x": 1065,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "e3b4596d072762e8",
+        "type": "link call",
+        "z": "8e2e889e14c077b8",
+        "g": "60eaf3183a2f1b08",
+        "name": "GET_REQ",
+        "links": ["e08aac8da2b0dd69"],
+        "linkType": "static",
+        "timeout": "40",
+        "x": 890,
+        "y": 300,
+        "wires": [["822d62f1d5cc3cc3"]]
+    },
+    {
+        "id": "5644e1de0c90404e",
+        "type": "link in",
+        "z": "8e2e889e14c077b8",
+        "g": "4d7c1fa91a8c2dc9",
+        "name": "helper_HTTP-Request_Post",
+        "links": [],
+        "x": 785,
+        "y": 2080,
+        "wires": [["26d83159224732c8"]]
+    },
+    {
+        "id": "26d83159224732c8",
+        "type": "http request",
+        "z": "8e2e889e14c077b8",
+        "g": "4d7c1fa91a8c2dc9",
+        "name": "HTTP-Request_Post",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 920,
+        "y": 2080,
+        "wires": [["f60eb0e8012c8dd5"]]
+    },
+    {
+        "id": "f60eb0e8012c8dd5",
+        "type": "link out",
+        "z": "8e2e889e14c077b8",
+        "g": "4d7c1fa91a8c2dc9",
+        "name": "HTTP_Request_Post-Out",
+        "mode": "return",
+        "links": [],
+        "x": 1065,
+        "y": 2080,
+        "wires": []
+    },
+    {
+        "id": "95770af22f3037a9",
+        "type": "link call",
+        "z": "8e2e889e14c077b8",
+        "g": "7529fb642014bbe2",
+        "name": "POST_REQ",
+        "links": ["5644e1de0c90404e"],
+        "linkType": "static",
+        "timeout": "40",
+        "x": 370,
+        "y": 1140,
+        "wires": [["be30928444179890"]]
+    },
+    {
+        "id": "2d46628cc9442a3d",
+        "type": "link call",
+        "z": "8e2e889e14c077b8",
+        "g": "3e3159a06022c48d",
+        "name": "GET_REQ",
+        "links": ["e08aac8da2b0dd69"],
+        "linkType": "static",
+        "timeout": "40",
+        "x": 370,
+        "y": 1240,
+        "wires": [["0dae7e0205070f5a"]]
+    },
+    {
+        "id": "604f558cc8fd861d",
+        "type": "link call",
+        "z": "8e2e889e14c077b8",
+        "g": "b4c5697408538620",
+        "name": "GET_REQ",
+        "links": ["e08aac8da2b0dd69"],
+        "linkType": "static",
+        "timeout": "40",
+        "x": 370,
+        "y": 1340,
+        "wires": [["5c6dda08fa80182b"]]
+    },
+    {
+        "id": "abcbce35f32c404f",
+        "type": "link call",
+        "z": "8e2e889e14c077b8",
+        "g": "1e09ef214bd99392",
+        "name": "GET_REQ",
+        "links": ["e08aac8da2b0dd69"],
+        "linkType": "static",
+        "timeout": "40",
+        "x": 370,
+        "y": 1440,
+        "wires": [["ed392d7e0e0d2193"]]
+    },
+    {
+        "id": "a52b33ff5c9f63fd",
+        "type": "link call",
+        "z": "8e2e889e14c077b8",
+        "g": "6d481a8e9c07d8b9",
+        "name": "GET_REQ",
+        "links": ["e08aac8da2b0dd69"],
+        "linkType": "static",
+        "timeout": "40",
+        "x": 870,
+        "y": 1140,
+        "wires": [["f3c193c1b31e367f"]]
+    },
+    {
+        "id": "b97c438f80e5eae6",
+        "type": "link call",
+        "z": "8e2e889e14c077b8",
+        "g": "453e87f282e67248",
+        "name": "GET_REQ",
+        "links": ["e08aac8da2b0dd69"],
+        "linkType": "static",
+        "timeout": "40",
+        "x": 870,
+        "y": 1240,
+        "wires": [["a5a1d13582c9973f"]]
+    },
+    {
+        "id": "139cdeafeb555414",
+        "type": "link call",
+        "z": "8e2e889e14c077b8",
+        "g": "fed38b316335d6dc",
+        "name": "POST_REQ",
+        "links": ["5644e1de0c90404e"],
+        "linkType": "static",
+        "timeout": "40",
+        "x": 910,
+        "y": 1340,
+        "wires": [["13321e1fd63350b9"]]
+    },
+    {
+        "id": "7567e68d2c8651b0",
+        "type": "link call",
+        "z": "8e2e889e14c077b8",
+        "g": "7f2c2b9883eaece7",
+        "name": "GET_REQ",
+        "links": ["e08aac8da2b0dd69"],
+        "linkType": "static",
+        "timeout": "40",
+        "x": 670,
+        "y": 1660,
+        "wires": [["70eed40310b8dd44"]]
+    },
+    {
+        "id": "1e6e898df2caac1f",
+        "type": "link call",
+        "z": "8e2e889e14c077b8",
+        "g": "55fccb29f8ea2410",
+        "name": "GET_REQ",
+        "links": ["e08aac8da2b0dd69"],
+        "linkType": "static",
+        "timeout": "40",
+        "x": 510,
+        "y": 1780,
+        "wires": [["6f69052eb1c78f03"]]
+    },
+    {
+        "id": "ccc00ae42d2aefd7",
+        "type": "link call",
+        "z": "8e2e889e14c077b8",
+        "g": "55fccb29f8ea2410",
+        "name": "GET_REQ",
+        "links": ["e08aac8da2b0dd69"],
+        "linkType": "static",
+        "timeout": "40",
+        "x": 870,
+        "y": 1780,
+        "wires": [["87a7e889552d5bc5"]]
+    },
+    {
+        "id": "7d752c9e77d2c23b",
+        "type": "link call",
+        "z": "8e2e889e14c077b8",
+        "g": "55fccb29f8ea2410",
+        "name": "GET_REQ",
+        "links": ["e08aac8da2b0dd69"],
+        "linkType": "static",
+        "timeout": "40",
+        "x": 430,
+        "y": 1840,
+        "wires": [["96246328b9441322"]]
+    },
+    {
+        "id": "aa32493abd5616a8",
+        "type": "link call",
+        "z": "8e2e889e14c077b8",
+        "g": "19244311e3ab0ec2",
+        "name": "POST_REQ",
+        "links": ["5644e1de0c90404e"],
+        "linkType": "static",
+        "timeout": "40",
+        "x": 310,
+        "y": 2080,
+        "wires": [["8a796b928016eb05"]]
+    },
+    {
+        "id": "1613cae886b4eaaf",
+        "type": "link call",
+        "z": "8e2e889e14c077b8",
+        "g": "608bcb4eabe9512f",
+        "name": "GET_REQ",
+        "links": ["e08aac8da2b0dd69"],
+        "linkType": "static",
+        "timeout": "40",
+        "x": 610,
+        "y": 120,
+        "wires": [["14d9b33db857ad02"]]
+    },
+    {
+        "id": "8eff3f587b2778ed",
+        "type": "debug",
+        "z": "8e2e889e14c077b8",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1280,
+        "y": 2320,
+        "wires": []
+    },
+    {
+        "id": "080bac8a54c58c6c",
+        "type": "function",
+        "z": "8e2e889e14c077b8",
+        "g": "fed38b316335d6dc",
+        "name": "Script.Create - Restart",
+        "func": "const scriptCode = `\n    /**\n     * @copyright SWISSGLIDER\n     * @license   MIT\n     * @authors   https://github.com/swissglider\n     *\n     * This script checks if there is a connection to the network on an intervall,\n     * if not the shelly will be restarted.\n     */\n\n    // CONFIG START\n    // a remote URL with just a few bytes of content in order to check if internet is still available.\n    let remoteurl = 'http://192.168.80.1';\n    // number of times the check is done before internet is considered as down.\n    let maxfails = 2;\n    // checks the internet connection every x minutes, recommended is 5 or more\n    let interval = 2;\n    // CONFIG END\n\n    // no need to change anything below this line.\n    let alertTimer = '';\n    let failcounter = 0;\n\n    function startMonitor() {\n        //   checkNetwork();\n        alertTimer = Timer.set(interval * 60 * 1000, true, checkNetwork, null);\n    }\n\n    function checkNetwork() {\n        Shelly.call(\n            'HTTP.GET',\n            {\n                url: remoteurl,\n            },\n            function (res, error_code, error_msg, ud) {\n                if (res.code !== 200) {\n                    if (failcounter === maxfails) {\n                        print('Restart');\n                        restartRelay();\n                        failcounter = 0;\n                    } else {\n                        print('fail');\n                        failcounter++;\n                    }\n                } else {\n                    // print('all ok');\n                }\n            },\n            null,\n        );\n    }\n\n    function restartRelay() {\n        // print('hallloooooo');\n        Shelly.call(\n            'Shelly.Reboot',\n            { delay_ms: 100 },\n            function (result, code, msg, ud) {\n                print(JSON.stringify(result));\n            },\n            null,\n        );\n    }\n\n    startMonitor();\n`\n\nmsg.url = `${msg.Shelly._http_tcp.url}/rpc`;\nmsg.payload = [\n    { \"id\": 1, \"method\": \"Script.Create\", \"params\": { \"name\": \"Restart if no connection\" } },\n    { \"id\": 1, \"method\": \"Script.PutCode\", \"params\": { \"id\": 2, \"code\": scriptCode } },\n    { \"id\": 1, \"method\": \"Script.Start\", \"params\": { \"id\": 2 } },\n    { \"id\": 1, \"method\": \"Script.SetConfig\", \"params\": { \"id\": 2, \"config\": { \"enable\": true }} },\n]\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 1460,
+        "wires": [["39299f1d1c0ac717"]]
+    },
+    {
+        "id": "39299f1d1c0ac717",
+        "type": "link call",
+        "z": "8e2e889e14c077b8",
+        "g": "fed38b316335d6dc",
+        "name": "",
+        "links": ["0a84c08b88417111"],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 910,
+        "y": 1460,
+        "wires": [["404e6db842f1f949"]]
     },
     {
         "id": "05aa48719cfb1121",
@@ -13543,7 +13635,7 @@
         "timeout": "",
         "count": "",
         "reduceRight": false,
-        "x": 1970,
+        "x": 1990,
         "y": 260,
         "wires": [[]]
     },
@@ -13553,7 +13645,7 @@
         "z": "fc48a9f1952c9276",
         "g": "053e34d5a972ebc2",
         "name": "switch MiHome Switch",
-        "x": 1620,
+        "x": 1640,
         "y": 160,
         "wires": [["d2c36b46787171cd"]]
     },
@@ -13563,7 +13655,7 @@
         "z": "fc48a9f1952c9276",
         "g": "053e34d5a972ebc2",
         "name": "switch Hue Consumers",
-        "x": 1630,
+        "x": 1650,
         "y": 220,
         "wires": [["d2c36b46787171cd"]]
     },
@@ -13573,7 +13665,7 @@
         "z": "fc48a9f1952c9276",
         "g": "053e34d5a972ebc2",
         "name": "switch Smartthings Consumer",
-        "x": 1650,
+        "x": 1670,
         "y": 280,
         "wires": [["d2c36b46787171cd"]]
     },
@@ -13583,7 +13675,7 @@
         "z": "fc48a9f1952c9276",
         "g": "053e34d5a972ebc2",
         "name": "init Shelly Switch",
-        "x": 1610,
+        "x": 1630,
         "y": 340,
         "wires": [["d2c36b46787171cd"]]
     },
@@ -13614,7 +13706,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 600,
+        "x": 560,
         "y": 240,
         "wires": [["a0ca233e289ca348", "635e8cd4c862069a", "a7be28ce70983c18"]]
     },
@@ -13624,9 +13716,9 @@
         "z": "fc48a9f1952c9276",
         "g": "d67285bc34ef4b18",
         "name": "hue: getConfigFunction",
-        "x": 830,
+        "x": 790,
         "y": 180,
-        "wires": [["1d5e869eac4003a0"]]
+        "wires": [["f54e10273f6b3f9b"]]
     },
     {
         "id": "635e8cd4c862069a",
@@ -13634,9 +13726,9 @@
         "z": "fc48a9f1952c9276",
         "g": "d67285bc34ef4b18",
         "name": "shelly: getConfigFunction",
-        "x": 830,
+        "x": 790,
         "y": 240,
-        "wires": [["1d5e869eac4003a0"]]
+        "wires": [["f54e10273f6b3f9b"]]
     },
     {
         "id": "a7be28ce70983c18",
@@ -13644,9 +13736,9 @@
         "z": "fc48a9f1952c9276",
         "g": "d67285bc34ef4b18",
         "name": "switch MiHome Switch",
-        "x": 820,
+        "x": 780,
         "y": 300,
-        "wires": [["1d5e869eac4003a0"]]
+        "wires": [["f54e10273f6b3f9b"]]
     },
     {
         "id": "1d5e869eac4003a0",
@@ -13684,7 +13776,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1260,
+        "x": 1280,
         "y": 240,
         "wires": [["e476a22478c9805e"]]
     },
@@ -13915,5 +14007,236 @@
         "x": 290,
         "y": 320,
         "wires": [[]]
+    },
+    {
+        "id": "5c3b5935788efcb0",
+        "type": "function",
+        "z": "8092dbfd87934e7f",
+        "name": "function 1",
+        "func": "const tmp = [];\nfor(const device of msg.payload.items){\n    if (device && device.roomId && device.roomId === '118d0c17-31bf-4367-8410-d5b2a156b42a'){\n        tmp.push(device.deviceId);\n    }\n}\nmsg.payload = tmp;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 300,
+        "wires": [["46ea687baa8255a9"]]
+    },
+    {
+        "id": "50ec5677a855550b",
+        "type": "http request",
+        "z": "8092dbfd87934e7f",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 310,
+        "y": 300,
+        "wires": [["5c3b5935788efcb0"]]
+    },
+    {
+        "id": "6e68f8545599bb78",
+        "type": "inject",
+        "z": "8092dbfd87934e7f",
+        "name": "",
+        "props": [
+            {
+                "p": "url",
+                "v": "https://api.smartthings.com/v1/devices",
+                "vt": "str"
+            },
+            {
+                "p": "headers",
+                "v": "{\"authorization\":\"Bearer dec0de41-bef1-40b4-88b4-00473b63cbec\",\"content-type\":\"application/json\"}",
+                "vt": "json"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 130,
+        "y": 300,
+        "wires": [["50ec5677a855550b"]]
+    },
+    {
+        "id": "9c0ba301c40503e2",
+        "type": "http request",
+        "z": "8092dbfd87934e7f",
+        "name": "",
+        "method": "DELETE",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 990,
+        "y": 300,
+        "wires": [["6648ec89a62173eb"]]
+    },
+    {
+        "id": "46ea687baa8255a9",
+        "type": "split",
+        "z": "8092dbfd87934e7f",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 630,
+        "y": 300,
+        "wires": [["80c08bab1e51191c"]]
+    },
+    {
+        "id": "6648ec89a62173eb",
+        "type": "join",
+        "z": "8092dbfd87934e7f",
+        "name": "",
+        "mode": "auto",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": "false",
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "x": 1150,
+        "y": 300,
+        "wires": [["d3b7fcd89743b3eb"]]
+    },
+    {
+        "id": "d3b7fcd89743b3eb",
+        "type": "debug",
+        "z": "8092dbfd87934e7f",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1300,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "80c08bab1e51191c",
+        "type": "function",
+        "z": "8092dbfd87934e7f",
+        "name": "function 2",
+        "func": "msg.url = \"https://api.smartthings.com/v1/devices/\" + msg.payload;\nmsg.headers = { \"authorization\": \"Bearer dec0de41-bef1-40b4-88b4-00473b63cbec\", \"content-type\": \"application/json\" }\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 300,
+        "wires": [["9c0ba301c40503e2"]]
+    },
+    {
+        "id": "383d545ad11e7eee",
+        "type": "comment",
+        "z": "8092dbfd87934e7f",
+        "name": "Delete all devices in Blind - Shelly's Smarthome Group",
+        "info": "",
+        "x": 280,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "6fc15b537dd4d128",
+        "type": "inject",
+        "z": "8092dbfd87934e7f",
+        "name": "",
+        "props": [
+            {
+                "p": "url",
+                "v": "https://api.smartthings.com/v1/scenes/3ffd08a8-4a5a-459d-bdeb-c0753c7e1d0d/execute",
+                "vt": "str"
+            },
+            {
+                "p": "headers",
+                "v": "{\"authorization\":\"Bearer dec0de41-bef1-40b4-88b4-00473b63cbec\",\"content-type\":\"application/json\"}",
+                "vt": "json"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 130,
+        "y": 540,
+        "wires": [["2d7f19e2a4b51514"]]
+    },
+    {
+        "id": "2d7f19e2a4b51514",
+        "type": "http request",
+        "z": "8092dbfd87934e7f",
+        "name": "",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 310,
+        "y": 540,
+        "wires": [["c596f4f6fe51d384"]]
+    },
+    {
+        "id": "a7e7bc8de0d04072",
+        "type": "comment",
+        "z": "8092dbfd87934e7f",
+        "name": "TestSzenario",
+        "info": "",
+        "x": 110,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "c596f4f6fe51d384",
+        "type": "debug",
+        "z": "8092dbfd87934e7f",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 540,
+        "wires": []
     }
 ]
