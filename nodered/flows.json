@@ -405,12 +405,13 @@
             "a8719c6ce4e72fd8",
             "15419d25dcaf5370",
             "5fcce7b1c8978ac9",
-            "c630c9c67ef4b640",
-            "2a113cf596defa8d"
+            "2a113cf596defa8d",
+            "39908a8a8d1f892b",
+            "d570ee85aa6a1fad"
         ],
         "x": 14,
         "y": 79,
-        "w": 1242,
+        "w": 1382,
         "h": 142
     },
     {
@@ -435,7 +436,8 @@
             "568724eb11a4867e",
             "baa42186414a9944",
             "e86f151afbb8a99c",
-            "ad5eb0cacd7f5f7b"
+            "ad5eb0cacd7f5f7b",
+            "8146631b5744b5e1"
         ],
         "x": 14,
         "y": 19,
@@ -644,9 +646,7 @@
             "4d5346b1da2e8891"
         ],
         "x": 114,
-        "y": 39,
-        "w": 1532,
-        "h": 422
+        "y": 39
     },
     {
         "id": "be55fa3cfa708c56",
@@ -1338,7 +1338,7 @@
             "fill": "#bfdbef"
         },
         "nodes": ["3a24205a2ae1e3df", "4c2b048c7486dd51"],
-        "x": 1274,
+        "x": 1634,
         "y": 79,
         "w": 372,
         "h": 82
@@ -1652,23 +1652,6 @@
         "y": 2059,
         "w": 462,
         "h": 167
-    },
-    {
-        "id": "a67235455bc3632d",
-        "type": "group",
-        "z": "99bcb3fc20c2db95",
-        "name": "EnvSettings",
-        "style": {
-            "label": true,
-            "stroke": "#0070c0",
-            "fill": "#bfdbef",
-            "color": "#0070c0"
-        },
-        "nodes": ["330de1706bad550f", "d5cdd6a49ffb3df3", "3c232d9d2b3b92c3", "33203fbe63c2ca1a", "547f753748817516"],
-        "x": 74,
-        "y": 119,
-        "w": 1172,
-        "h": 82
     },
     {
         "id": "200e32c064211977",
@@ -2061,9 +2044,7 @@
         },
         "nodes": ["08553bacf3512b48", "27b3da331e98900a", "8c6a1d60fb6a99e0"],
         "x": 48,
-        "y": 453,
-        "w": 1124,
-        "h": 314
+        "y": 453
     },
     {
         "id": "44ad1e226dcfc458",
@@ -2075,9 +2056,7 @@
         },
         "nodes": ["0cbfd85977480236", "1cdf2a8006c3bd44"],
         "x": 54,
-        "y": 339,
-        "w": 312,
-        "h": 82
+        "y": 339
     },
     {
         "id": "f6c7377816a50cbc",
@@ -2200,6 +2179,326 @@
         "x": 74,
         "y": 419,
         "w": 832,
+        "h": 82
+    },
+    {
+        "id": "84dee32454eb211d",
+        "type": "group",
+        "z": "45ba4a71e86279f7",
+        "name": "Error Handling",
+        "style": {
+            "stroke": "#ff0000",
+            "label": true,
+            "color": "#001f60",
+            "fill": "#ffbfbf"
+        },
+        "nodes": ["30c931b4c729bf1c", "f8b2ee7014d00879"],
+        "x": 134,
+        "y": 79
+    },
+    {
+        "id": "2976e0887d431532",
+        "type": "group",
+        "z": "45ba4a71e86279f7",
+        "name": "Init",
+        "style": {
+            "stroke": "#6f2fa0",
+            "fill": "#dbcbe7",
+            "label": true,
+            "color": "#001f60"
+        },
+        "nodes": [
+            "52490d85906f48e1",
+            "63149bc209219a29",
+            "db06b197844a4e0e",
+            "1a5042ed10eb0e9f",
+            "2cb88a7735a259ae",
+            "2fbcebe977c91f20",
+            "914b22c99b00ed8c"
+        ],
+        "x": 134,
+        "y": 199
+    },
+    {
+        "id": "140492a91c9a2684",
+        "type": "group",
+        "z": "45ba4a71e86279f7",
+        "name": "1",
+        "style": {
+            "stroke": "#6f2fa0",
+            "fill": "#dbcbe7",
+            "label": true,
+            "color": "#001f60"
+        },
+        "nodes": ["97596432d8fb1a68", "f4febc451934c9d1", "b401fb0e971592eb"],
+        "x": 134,
+        "y": 339
+    },
+    {
+        "id": "d2173ec488706a11",
+        "type": "group",
+        "z": "0d0d3796186d94ef",
+        "name": "Global Methodes - Subflow",
+        "style": {
+            "stroke": "#777777",
+            "fill": "#e3f3d3",
+            "label": true
+        },
+        "nodes": [
+            "8c090bd21d610406",
+            "ea165a26c6a0ccd3",
+            "39b1f463e9f2d7a8",
+            "7303579c5ec4e957",
+            "af13d90a2d5e26fd",
+            "6ec45a3c27a6f758",
+            "25363e7d5009de2c",
+            "a0de6902070c0de0",
+            "93d18a34fc7ca18f",
+            "29540a676e73599d",
+            "7d9761bdfe275d76"
+        ],
+        "x": 34,
+        "y": 419,
+        "w": 982,
+        "h": 162
+    },
+    {
+        "id": "fb18f5f93fdda2bc",
+        "type": "group",
+        "z": "8092dbfd87934e7f",
+        "name": "Test Subflow Process",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#3f3f3f",
+            "label": true
+        },
+        "nodes": [
+            "ab1f30bc2d1befb8",
+            "f9f496e4ed5aee35",
+            "8e0974ba8bccdc7e",
+            "93a064cf6d4270ca",
+            "4fc75da1c7b7f1aa",
+            "1123379da4f7e0c0",
+            "681bcec8fa7bf542",
+            "8df563d7ed86a118"
+        ],
+        "x": 54,
+        "y": 779
+    },
+    {
+        "id": "88d9c989a64b7062",
+        "type": "group",
+        "z": "45ba4a71e86279f7",
+        "name": "Output",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#7f7f7f",
+            "label": true,
+            "color": "#d1d1d1"
+        },
+        "nodes": ["6cdafc2a1b588d0e", "7dacb137a87a36fc", "f8eec55f465e4bbd", "92121326890fafd6"],
+        "x": 834,
+        "y": 39
+    },
+    {
+        "id": "367b44e8e7e63ab7",
+        "type": "group",
+        "z": "8e2e889e14c077b8",
+        "name": "get shellies not found / not reachable",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "label": true,
+            "color": "#001f60"
+        },
+        "nodes": [
+            "63980ef749eae5f5",
+            "c9989ce3785fb1e9",
+            "3f4710cddad3426a",
+            "11e5005f89edf349",
+            "baf1d29a4752c99b",
+            "ebdd6e35f1493bbc",
+            "9e1f3f53ee2fdfc9",
+            "93bb23bd6e97c74d",
+            "7eb5ce5c5e31985d",
+            "1cb09ab0c608e28d",
+            "4b83ad5b4e06df07"
+        ],
+        "x": 34,
+        "y": 1099,
+        "w": 1412,
+        "h": 142
+    },
+    {
+        "id": "28045f68941c1bd4",
+        "type": "group",
+        "z": "56cb5db772fc3848",
+        "name": "EnvSettings:ConfigFunctions",
+        "style": {
+            "stroke": "#0070c0",
+            "fill": "#bfdbef",
+            "label": true,
+            "color": "#0070c0"
+        },
+        "nodes": [
+            "7a3133c318be18e8",
+            "63726825eefacff5",
+            "7da779ceb96f3694",
+            "b955f35c1b641021",
+            "87a69097634670a0",
+            "419882303ec84c0b",
+            "476d1fd62c3ff46b"
+        ],
+        "x": 1334,
+        "y": 19,
+        "w": 932,
+        "h": 162
+    },
+    {
+        "id": "0133dcd8b69c794e",
+        "type": "group",
+        "z": "0d0d3796186d94ef",
+        "name": "Error Handling",
+        "style": {
+            "stroke": "#ff0000",
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": ["0c8dd027d613297e", "e95cd99fb7224513", "58a25a16bbeb7863"],
+        "x": 1514,
+        "y": 719,
+        "w": 592,
+        "h": 122
+    },
+    {
+        "id": "9616bd1a4d05ba18",
+        "type": "group",
+        "z": "0d0d3796186d94ef",
+        "name": "Device-SB LinkIn's",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c8ab1528ceab79fa",
+            "6418c61b33fce572",
+            "e464853543c85eb4",
+            "1d0dade2eec1e4ba",
+            "a9c5b26b3d5e14fb",
+            "acbe14544aabbdd5",
+            "9adcc96cf458cd11",
+            "6f4eebfa93f3af6b",
+            "8e0ce8ef02b95372",
+            "bef7e308cc1b695e",
+            "2148f9f813a529f7",
+            "ba91e61dd9d0f0e8",
+            "61bf83bf9ac02997",
+            "bc15d8c27d4a4334",
+            "2568174dfb204ea3",
+            "bc29dbd39ce63219",
+            "de16e5a0be2a6f5c",
+            "0d94f8066b3a8580",
+            "f06c9de70ea67719",
+            "8663b53279ac4f43",
+            "283cc01c7f16a559",
+            "a724650673a9ade0",
+            "fd07ab3258c50536",
+            "2c871e23a8369878"
+        ],
+        "x": 254,
+        "y": 1499,
+        "w": 1642,
+        "h": 282
+    },
+    {
+        "id": "2b87b7793c66ec0f",
+        "type": "group",
+        "z": "56cb5db772fc3848",
+        "name": "init (startup && every day at 3 am) - Also init Devices and IOBroker Config",
+        "style": {
+            "stroke": "#001f60",
+            "fill": "#bfdbef",
+            "label": true,
+            "color": "#001f60"
+        },
+        "nodes": [
+            "05aa48719cfb1121",
+            "b752f45617f33177",
+            "6b6ea078c473a08e",
+            "f604570de41a77b2",
+            "c39c76c74f8a87e3",
+            "19156c96d484caf4",
+            "acc1a59ce1d8af73",
+            "8986c7f886b01261",
+            "ee629edabccab52d",
+            "04a33b37e51d59bd",
+            "3a378557904cc770"
+        ],
+        "x": 534,
+        "y": 199,
+        "w": 1342,
+        "h": 182
+    },
+    {
+        "id": "8d1c2821979ae628",
+        "type": "group",
+        "z": "0d0d3796186d94ef",
+        "name": "Input - check per command",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "8013936346ea99a3",
+            "3aca1db0b6ac5391",
+            "ea1bd52c9d4477b4",
+            "8632386097bf8996",
+            "84488534d789123e",
+            "e5d4b1dca4fb1570",
+            "e37655ce2b73e41e",
+            "4389b6f6a462d5f1"
+        ],
+        "x": 294,
+        "y": 839,
+        "w": 1102,
+        "h": 202
+    },
+    {
+        "id": "bd270ade17388d59",
+        "type": "group",
+        "z": "0d0d3796186d94ef",
+        "name": "Ouput - Check and clean per command",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "3dd41530b9369607",
+            "41c4fd7605eff973",
+            "b09a34bf5ba70705",
+            "3ed18a46558ae287",
+            "72505e6b24f66bda",
+            "24ed4b53b11dabf9",
+            "033a382e2c7a9a12",
+            "683d154951ae7b28"
+        ],
+        "x": 294,
+        "y": 1119,
+        "w": 1102,
+        "h": 202
+    },
+    {
+        "id": "a67235455bc3632d",
+        "type": "group",
+        "z": "99bcb3fc20c2db95",
+        "name": "EnvSettings",
+        "style": {
+            "label": true,
+            "stroke": "#0070c0",
+            "fill": "#bfdbef",
+            "color": "#0070c0"
+        },
+        "nodes": ["330de1706bad550f", "d5cdd6a49ffb3df3", "3c232d9d2b3b92c3", "33203fbe63c2ca1a", "547f753748817516"],
+        "x": 74,
+        "y": 99,
+        "w": 1232,
         "h": 82
     },
     {
@@ -2345,9 +2644,7 @@
         },
         "nodes": ["98d04692ffd0c0ab", "ae8849751ea4eb3a", "241dd08666330c41", "702aaaebf0d08ac0", "1179e0c437cc166d"],
         "x": 74,
-        "y": 659,
-        "w": 1072,
-        "h": 82
+        "y": 659
     },
     {
         "id": "27b3da331e98900a",
@@ -2371,9 +2668,7 @@
             "ea2a6ccfbf4f05e2"
         ],
         "x": 674,
-        "y": 479,
-        "w": 292,
-        "h": 162
+        "y": 479
     },
     {
         "id": "8c6a1d60fb6a99e0",
@@ -2394,276 +2689,63 @@
             "a189cf2319d144b4"
         ],
         "x": 74,
-        "y": 479,
-        "w": 572,
-        "h": 162
+        "y": 479
     },
     {
-        "id": "84dee32454eb211d",
+        "id": "d407a6a1e3f4dce5",
         "type": "group",
-        "z": "45ba4a71e86279f7",
-        "name": "Error Handling",
+        "z": "14ce7768b920ca39",
+        "name": "refresh consumer lampe - zimmer/zone",
         "style": {
             "stroke": "#ff0000",
-            "label": true,
-            "color": "#001f60",
-            "fill": "#ffbfbf"
-        },
-        "nodes": ["30c931b4c729bf1c", "f8b2ee7014d00879"],
-        "x": 134,
-        "y": 79,
-        "w": 292,
-        "h": 82
-    },
-    {
-        "id": "2976e0887d431532",
-        "type": "group",
-        "z": "45ba4a71e86279f7",
-        "name": "Init",
-        "style": {
-            "stroke": "#6f2fa0",
-            "fill": "#dbcbe7",
+            "fill": "#bfdbef",
             "label": true,
             "color": "#001f60"
         },
         "nodes": [
-            "52490d85906f48e1",
-            "63149bc209219a29",
-            "db06b197844a4e0e",
-            "1a5042ed10eb0e9f",
-            "2cb88a7735a259ae",
-            "2fbcebe977c91f20",
-            "914b22c99b00ed8c"
-        ],
-        "x": 134,
-        "y": 199,
-        "w": 1232,
-        "h": 122
-    },
-    {
-        "id": "140492a91c9a2684",
-        "type": "group",
-        "z": "45ba4a71e86279f7",
-        "name": "1",
-        "style": {
-            "stroke": "#6f2fa0",
-            "fill": "#dbcbe7",
-            "label": true,
-            "color": "#001f60"
-        },
-        "nodes": ["97596432d8fb1a68", "f4febc451934c9d1", "b401fb0e971592eb"],
-        "x": 134,
-        "y": 339,
-        "w": 432,
-        "h": 82
-    },
-    {
-        "id": "d2173ec488706a11",
-        "type": "group",
-        "z": "0d0d3796186d94ef",
-        "name": "Global Methodes - Subflow",
-        "style": {
-            "stroke": "#777777",
-            "fill": "#e3f3d3",
-            "label": true
-        },
-        "nodes": [
-            "8c090bd21d610406",
-            "ea165a26c6a0ccd3",
-            "39b1f463e9f2d7a8",
-            "7303579c5ec4e957",
-            "af13d90a2d5e26fd",
-            "6ec45a3c27a6f758",
-            "25363e7d5009de2c",
-            "a0de6902070c0de0",
-            "93d18a34fc7ca18f",
-            "29540a676e73599d",
-            "7d9761bdfe275d76"
-        ],
-        "x": 34,
-        "y": 419,
-        "w": 982,
-        "h": 162
-    },
-    {
-        "id": "fb18f5f93fdda2bc",
-        "type": "group",
-        "z": "8092dbfd87934e7f",
-        "name": "Test Subflow Process",
-        "style": {
-            "stroke": "#000000",
-            "fill": "#3f3f3f",
-            "label": true
-        },
-        "nodes": [
-            "ab1f30bc2d1befb8",
-            "f9f496e4ed5aee35",
-            "8e0974ba8bccdc7e",
-            "93a064cf6d4270ca",
-            "4fc75da1c7b7f1aa",
-            "1123379da4f7e0c0",
-            "681bcec8fa7bf542",
-            "8df563d7ed86a118"
+            "8debe7f8359bae51",
+            "7e1603fb519e2bd8",
+            "a7c1307cba6acb49",
+            "02f1e69df1a1933c",
+            "8410ab7f2aa4b70f",
+            "8c289da74b133a5a",
+            "fe157a70eda772dc",
+            "ef87fe5d894d5803",
+            "3bdcc8e0b9399e8c",
+            "019e7f2f489490fb",
+            "14b85633c8dca7ff",
+            "092e4ff17a4f5b14"
         ],
         "x": 54,
-        "y": 779,
+        "y": 1673,
+        "w": 2182,
+        "h": 328
+    },
+    {
+        "id": "ef87fe5d894d5803",
+        "type": "group",
+        "z": "14ce7768b920ca39",
+        "g": "d407a6a1e3f4dce5",
+        "name": "get Scenes",
+        "style": {
+            "stroke": "#777777",
+            "fill": "#d1d1d1",
+            "label": true,
+            "color": "#777777"
+        },
+        "nodes": [
+            "7b760cfbd079f621",
+            "3e013438955583dd",
+            "f1db539c13dcd143",
+            "d2bc235d30bf0a3d",
+            "4fcfb49637cc6e3c",
+            "0e7fcb1111f3a2e6",
+            "958534be415436ac"
+        ],
+        "x": 1314,
+        "y": 1699,
         "w": 652,
-        "h": 282
-    },
-    {
-        "id": "88d9c989a64b7062",
-        "type": "group",
-        "z": "45ba4a71e86279f7",
-        "name": "Output",
-        "style": {
-            "stroke": "#000000",
-            "fill": "#7f7f7f",
-            "label": true,
-            "color": "#d1d1d1"
-        },
-        "nodes": ["6cdafc2a1b588d0e", "7dacb137a87a36fc", "f8eec55f465e4bbd", "92121326890fafd6"],
-        "x": 834,
-        "y": 39,
-        "w": 502,
-        "h": 122
-    },
-    {
-        "id": "367b44e8e7e63ab7",
-        "type": "group",
-        "z": "8e2e889e14c077b8",
-        "name": "get shellies not found / not reachable",
-        "style": {
-            "stroke": "#92d04f",
-            "fill": "#e3f3d3",
-            "label": true,
-            "color": "#001f60"
-        },
-        "nodes": [
-            "63980ef749eae5f5",
-            "c9989ce3785fb1e9",
-            "3f4710cddad3426a",
-            "11e5005f89edf349",
-            "baf1d29a4752c99b",
-            "ebdd6e35f1493bbc",
-            "9e1f3f53ee2fdfc9",
-            "93bb23bd6e97c74d",
-            "7eb5ce5c5e31985d",
-            "1cb09ab0c608e28d",
-            "4b83ad5b4e06df07"
-        ],
-        "x": 34,
-        "y": 1099,
-        "w": 1412,
-        "h": 142
-    },
-    {
-        "id": "28045f68941c1bd4",
-        "type": "group",
-        "z": "56cb5db772fc3848",
-        "name": "EnvSettings:ConfigFunctions",
-        "style": {
-            "stroke": "#0070c0",
-            "fill": "#bfdbef",
-            "label": true,
-            "color": "#0070c0"
-        },
-        "nodes": [
-            "7a3133c318be18e8",
-            "63726825eefacff5",
-            "7da779ceb96f3694",
-            "b955f35c1b641021",
-            "87a69097634670a0",
-            "419882303ec84c0b",
-            "476d1fd62c3ff46b"
-        ],
-        "x": 1334,
-        "y": 19,
-        "w": 932,
-        "h": 162
-    },
-    {
-        "id": "0133dcd8b69c794e",
-        "type": "group",
-        "z": "0d0d3796186d94ef",
-        "name": "Error Handling",
-        "style": {
-            "stroke": "#ff0000",
-            "fill": "#ffbfbf",
-            "label": true
-        },
-        "nodes": ["0c8dd027d613297e", "e95cd99fb7224513", "58a25a16bbeb7863"],
-        "x": 1514,
-        "y": 719,
-        "w": 592,
-        "h": 122
-    },
-    {
-        "id": "9616bd1a4d05ba18",
-        "type": "group",
-        "z": "0d0d3796186d94ef",
-        "name": "Device-SB LinkIn's",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "c8ab1528ceab79fa",
-            "6418c61b33fce572",
-            "e464853543c85eb4",
-            "1d0dade2eec1e4ba",
-            "a9c5b26b3d5e14fb",
-            "acbe14544aabbdd5",
-            "9adcc96cf458cd11",
-            "8663b53279ac4f43",
-            "6f4eebfa93f3af6b",
-            "f06c9de70ea67719",
-            "8e0ce8ef02b95372",
-            "bef7e308cc1b695e",
-            "2148f9f813a529f7",
-            "a724650673a9ade0",
-            "ba91e61dd9d0f0e8",
-            "283cc01c7f16a559",
-            "61bf83bf9ac02997",
-            "bc15d8c27d4a4334",
-            "2568174dfb204ea3",
-            "2c871e23a8369878",
-            "bc29dbd39ce63219",
-            "fd07ab3258c50536",
-            "de16e5a0be2a6f5c",
-            "0d94f8066b3a8580"
-        ],
-        "x": 274,
-        "y": 1379,
-        "w": 1642,
-        "h": 282
-    },
-    {
-        "id": "2b87b7793c66ec0f",
-        "type": "group",
-        "z": "56cb5db772fc3848",
-        "name": "init (startup && every day at 3 am) - Also init Devices and IOBroker Config",
-        "style": {
-            "stroke": "#001f60",
-            "fill": "#bfdbef",
-            "label": true,
-            "color": "#001f60"
-        },
-        "nodes": [
-            "05aa48719cfb1121",
-            "b752f45617f33177",
-            "0918b3c9f4bc79bb",
-            "78dcd8e164030c9a",
-            "6b6ea078c473a08e",
-            "f604570de41a77b2",
-            "c39c76c74f8a87e3",
-            "19156c96d484caf4",
-            "acc1a59ce1d8af73",
-            "8986c7f886b01261",
-            "ee629edabccab52d"
-        ],
-        "x": 534,
-        "y": 199,
-        "w": 1052,
-        "h": 182
+        "h": 202
     },
     {
         "id": "4d5346b1da2e8891",
@@ -2860,6 +2942,15 @@
         "x": 620,
         "y": 1180,
         "wires": [["11e5005f89edf349"]]
+    },
+    {
+        "id": "3bdcc8e0b9399e8c",
+        "type": "junction",
+        "z": "14ce7768b920ca39",
+        "g": "d407a6a1e3f4dce5",
+        "x": 1220,
+        "y": 1960,
+        "wires": [["8410ab7f2aa4b70f"]]
     },
     {
         "id": "79f48094a950d368",
@@ -3523,7 +3614,7 @@
         "uncaught": false,
         "x": 1680,
         "y": 300,
-        "wires": [["e3bc838c3ed3b3df"]]
+        "wires": [["e3bc838c3ed3b3df", "d42dbd1abf45715b"]]
     },
     {
         "id": "71feff7f1fa128e8",
@@ -3769,7 +3860,7 @@
         "type": "function",
         "z": "f3fb093646919445",
         "name": "url",
-        "func": "msg.url = global.get('global__sgWebAPIURL') + 'iobroker/miioGetSimpleMappingGet'\nreturn msg;",
+        "func": "msg.url = global.get('global__sgWebAPIURL') + 'iobroker/miioGetSimpleMappingGet'\nmsg.requestTimeout = 15000;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -3811,6 +3902,11 @@
                 "pt": "msg",
                 "to": "payload.result",
                 "tot": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "requestTimeout",
+                "pt": "msg"
             }
         ],
         "action": "",
@@ -3827,16 +3923,16 @@
         "type": "function",
         "z": "f3fb093646919445",
         "name": "filter",
-        "func": "const ret1 = {};\nmsg.payload.filter(e => e.channelType.toLowerCase() === msg.filter.toLowerCase()).forEach(e => {\n    ret1[e.ioBrokerChannelPath] = e;\n})\nmsg.payload = Object.fromEntries(Object.entries(ret1).map(([key, e]) => [key,{\n    name: e.name, \n    adapterName:e.adapterName, \n    channelType: e.channelType, \n    room: e.room, \n    place: e.place, \n    ioBrokerChannelPath: e.ioBrokerChannelPath, \n    availableStyleButtons:e.availableStyleButtons.filter(ee => ee.role === \"button\" )\n    //availableStyleButtons:e.availableStyleButtons\n}]));\nreturn [msg, {payload:Object.values(msg.payload)}];",
-        "outputs": 2,
+        "func": "const ret1 = {};\nmsg.payload.filter(e => {\n    try {\n        return e.channelType.toLowerCase() === msg.devicePayload.filter.toLowerCase()\n    } catch (error) {\n        return false;\n    };\n}).forEach(e => {\n    ret1[e.ioBrokerChannelPath] = e;\n})\n\nmsg.payload = Object.fromEntries(Object.entries(ret1).map(([key, e]) => [key, {\n    name: e.name,\n    adapterName: e.adapterName,\n    channelType: e.channelType,\n    room: e.room,\n    place: e.place,\n    ioBrokerChannelPath: e.ioBrokerChannelPath,\n    availableStyleButtons: e.availableStyleButtons.filter(ee => ee.role === \"button\")\n    //availableStyleButtons:e.availableStyleButtons\n}]));\nreturn msg;",
+        "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 1170,
         "y": 880,
-        "wires": [["72a86bacd414e97d"], []],
-        "outputLabels": ["object", "array"]
+        "wires": [["72a86bacd414e97d"]],
+        "outputLabels": ["object"]
     },
     {
         "id": "72a86bacd414e97d",
@@ -3898,6 +3994,23 @@
         "x": 1310,
         "y": 880,
         "wires": [["5bf043088bd198d4"]]
+    },
+    {
+        "id": "d42dbd1abf45715b",
+        "type": "debug",
+        "z": "f3fb093646919445",
+        "name": "debug 31",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1940,
+        "y": 420,
+        "wires": []
     },
     {
         "id": "74a06fc0c6163540",
@@ -4177,7 +4290,7 @@
         "asArray": "true",
         "onlyIDs": "false",
         "withValues": "false",
-        "x": 410,
+        "x": 400,
         "y": 440,
         "wires": [["d4170e5b930ad56c"]]
     },
@@ -4193,7 +4306,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 770,
+        "x": 760,
         "y": 440,
         "wires": [["86ca891fa5e2cedb"], []],
         "outputLabels": ["object", "array"]
@@ -4757,15 +4870,26 @@
                 "vt": "str"
             },
             {
+                "t": "eq",
+                "v": "get_consumers",
+                "vt": "str"
+            },
+            {
                 "t": "else"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 4,
+        "outputs": 5,
         "x": 110,
         "y": 140,
-        "wires": [["7c77c28c55ee4a0c"], ["7c77c28c55ee4a0c"], ["7c77c28c55ee4a0c"], ["74a06fc0c6163540"]]
+        "wires": [
+            ["7c77c28c55ee4a0c"],
+            ["7c77c28c55ee4a0c"],
+            ["7c77c28c55ee4a0c"],
+            ["7c77c28c55ee4a0c"],
+            ["74a06fc0c6163540"]
+        ]
     },
     {
         "id": "5730c26f9c436c6a",
@@ -4795,7 +4919,7 @@
             },
             {
                 "p": "payload.commands",
-                "v": "[\"init_consumer\",\"init_switch\", \"get_switches\"]",
+                "v": "[\"init_consumer\",\"init_switch\",\"get_switches\",\"get_consumers\"]",
                 "vt": "json"
             },
             {
@@ -4923,24 +5047,8 @@
         "links": [],
         "x": 270,
         "y": 1420,
-        "wires": [["be2bf47c739c3b06"]],
+        "wires": [["ef23e759cc651d1f"]],
         "l": true
-    },
-    {
-        "id": "be2bf47c739c3b06",
-        "type": "function",
-        "z": "2a5c9ff66c4fad1d",
-        "name": "get_switches",
-        "func": "msg.payload = {};\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 470,
-        "y": 1420,
-        "wires": [["672f458a4da37b1e"]],
-        "outputLabels": ["objects"]
     },
     {
         "id": "672f458a4da37b1e",
@@ -4949,8 +5057,123 @@
         "name": "",
         "mode": "return",
         "links": [],
-        "x": 635,
+        "x": 975,
         "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "ef23e759cc651d1f",
+        "type": "ioBroker list",
+        "z": "2a5c9ff66c4fad1d",
+        "name": "get all shelly channels with Relays",
+        "topic": "shelly.0.*",
+        "objType": "channel",
+        "regex": "\\bRelay|\\bCover",
+        "asArray": "true",
+        "onlyIDs": "false",
+        "withValues": "false",
+        "x": 500,
+        "y": 1420,
+        "wires": [["e5e4b925967042a6"]]
+    },
+    {
+        "id": "e5e4b925967042a6",
+        "type": "function",
+        "z": "2a5c9ff66c4fad1d",
+        "name": "create List and filter channelType",
+        "func": "const tmpPL = {};\nfor(const channel of msg.payload){\n    const subs = channel.common.name.split(' ')\n    if ((!msg.searchFilter && subs[0] !== 'Channel') || subs[0].toLowerCase() === msg.searchFilter.toLowerCase()){\n        tmpPL[`${channel._id}`] = {\n            name:channel.common.name,\n            adapterName:'Shelly',\n            channelType:subs[0] ? subs[0] : '',\n            room:subs[1] ? subs[1] : '',\n            place:subs[2] ? subs[2] : '',\n            availableStyles: (msg.searchFilter !== 'Lichtschalter') \n            ? [\n                'input.push',\n                //'input.on',\n                //'input.off',\n                'switch.on',\n                'switch.off'\n            ] \n            : ['switch']\n        }\n    }\n}\nmsg.payload = tmpPL\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 1420,
+        "wires": [["672f458a4da37b1e"]],
+        "outputLabels": ["object"]
+    },
+    {
+        "id": "f0500b81cb33d447",
+        "type": "link in",
+        "z": "2a5c9ff66c4fad1d",
+        "name": "get_consumers",
+        "links": [],
+        "x": 280,
+        "y": 1700,
+        "wires": [["ba71d0cafa9c4bd7"]],
+        "l": true
+    },
+    {
+        "id": "ba71d0cafa9c4bd7",
+        "type": "switch",
+        "z": "2a5c9ff66c4fad1d",
+        "name": "filter",
+        "property": "searchFilter",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "wandschalter",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Mobilerschalter",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Lichtschalter",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 470,
+        "y": 1700,
+        "wires": [["6a7fdcaa2388d717"], ["6a7fdcaa2388d717"], ["6a7fdcaa2388d717"]],
+        "outputLabels": ["wandschalter", "Mobilerschalter", ""]
+    },
+    {
+        "id": "6a7fdcaa2388d717",
+        "type": "ioBroker list",
+        "z": "2a5c9ff66c4fad1d",
+        "name": "get all shelly channels with Relays",
+        "topic": "shelly.0.*",
+        "objType": "channel",
+        "regex": "\\bRelay|\\bCover",
+        "asArray": "true",
+        "onlyIDs": "false",
+        "withValues": "false",
+        "x": 700,
+        "y": 1700,
+        "wires": [["27a54def5fdddcb5"]]
+    },
+    {
+        "id": "27a54def5fdddcb5",
+        "type": "function",
+        "z": "2a5c9ff66c4fad1d",
+        "name": "create List and filter channelType",
+        "func": "const tmpPL = {};\nfor(const channel of msg.payload){\n    const subs = channel.common.name.split(' ');\n    const type = subs[0] ? subs[0] : ''\n    //if ((subs[0] !== 'Channel' && ['Storen', 'Lichtschalter'].includes(type))) {\n    if ((subs[0] !== 'Channel' && ['Storen', 'Lichtschalter'].includes(type))) {\n        tmpPL[`${channel._id}`] = {\n            id:channel._id,\n            name:channel.common.name,\n            adapterName:'Shelly',\n            channelType:type,\n            room:subs[1] ? subs[1] : '',\n            place:subs[2] ? subs[2] : '',\n            type:type,\n            info:subs.join(\" \"),\n            scenes: (type === 'Storen')\n                ? [\n                    {\n                        id:channel._id + '.Open',\n                        name:'Open'\n                    },\n                    {\n                        id:channel._id + '.Stop',\n                        name:'Stop'\n                    },\n                    {\n                        id:channel._id + '.Close',\n                        name:'Close'\n                    }\n                ]\n                : []\n        }\n    }\n}\nmsg.payload = tmpPL\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 1700,
+        "wires": [["9ebd2342868255c5"]]
+    },
+    {
+        "id": "9ebd2342868255c5",
+        "type": "link out",
+        "z": "2a5c9ff66c4fad1d",
+        "name": "",
+        "mode": "return",
+        "links": [],
+        "x": 1185,
+        "y": 1700,
         "wires": []
     },
     {
@@ -6213,7 +6436,7 @@
             },
             {
                 "p": "payload.commands",
-                "v": "[\"init_consumer\",\"init_switch\", \"get_switches\"]",
+                "v": "[\"init_consumer\",\"init_switch\",\"get_switches\",\"get_consumers\"]",
                 "vt": "json"
             },
             {
@@ -6269,15 +6492,26 @@
                 "vt": "str"
             },
             {
+                "t": "eq",
+                "v": "get_consumers",
+                "vt": "str"
+            },
+            {
                 "t": "else"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 4,
+        "outputs": 5,
         "x": 170,
         "y": 120,
-        "wires": [["2b10d19a49207966"], ["2b10d19a49207966"], ["2b10d19a49207966"], ["b0a745975e027d4d"]]
+        "wires": [
+            ["2b10d19a49207966"],
+            ["2b10d19a49207966"],
+            ["2b10d19a49207966"],
+            ["2b10d19a49207966"],
+            ["b0a745975e027d4d"]
+        ]
     },
     {
         "id": "10bae3cd4fceb2d2",
@@ -6307,7 +6541,7 @@
         "type": "function",
         "z": "14ce7768b920ca39",
         "name": "init_consumer",
-        "func": "return msg;",
+        "func": "msg.payload = {};\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6357,7 +6591,7 @@
         "type": "function",
         "z": "14ce7768b920ca39",
         "name": "init_switch",
-        "func": "return msg;",
+        "func": "msg.payload = {}; \nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6375,7 +6609,7 @@
         "name": "",
         "mode": "return",
         "links": [],
-        "x": 555,
+        "x": 635,
         "y": 1560,
         "wires": []
     },
@@ -6421,16 +6655,16 @@
         "type": "function",
         "z": "14ce7768b920ca39",
         "name": "create List and filter channelType",
-        "func": "const tmpPL = {};\nfor(const channel of msg.payload){\n    const subs = channel.common.name.split(' ')\n    if((!msg.filter && subs[0] !== 'Channel' )|| subs[0].toLowerCase() === msg.filter.toLowerCase()){\n        tmpPL[`${channel._id}`] = {\n            name:channel.common.name,\n            adapterName:'Hue',\n            channelType:subs[0] ? subs[0] : '',\n            room:subs[1] ? subs[1] : '',\n            place:subs[2] ? subs[2] : '',\n            availableStyleButtons: [\n                { name: 'Button 1', id: 'hue.0.Mobilerschalter_Büro_HueTab.lastupdated&%&34', role: 'button' },\n                { name: 'Button 2', id: 'hue.0.Mobilerschalter_Büro_HueTab.lastupdated&%&16', role: 'button' },\n                { name: 'Button 3', id: 'hue.0.Mobilerschalter_Büro_HueTab.lastupdated&%&17', role: 'button' },\n                { name: 'Button 4', id: 'hue.0.Mobilerschalter_Büro_HueTab.lastupdated&%&18', role: 'button' }\n                //{ name: 'Button 1', id: 'hue.0.Mobilerschalter_Büro_HueTab.buttonevent&%&34', role: 'button' },\n                //{ name: 'Button 2', id: 'hue.0.Mobilerschalter_Büro_HueTab.buttonevent&%&16', role: 'button' },\n                //{ name: 'Button 3', id: 'hue.0.Mobilerschalter_Büro_HueTab.buttonevent&%&17', role: 'button' },\n                //{ name: 'Button 4', id: 'hue.0.Mobilerschalter_Büro_HueTab.buttonevent&%&18', role: 'button' }\n            ]\n        }\n    }\n}\nmsg.payload = tmpPL\nreturn [msg, {payload:Object.values(msg.payload)}];",
-        "outputs": 2,
+        "func": "const tmpPL = {};\nfor(const channel of msg.payload){\n    const subs = channel.common.name.split(' ')\n    if((!msg.filter && subs[0] !== 'Channel' )|| subs[0].toLowerCase() === msg.filter.toLowerCase()){\n        tmpPL[`${channel._id}`] = {\n            name:channel.common.name,\n            adapterName:'Hue',\n            channelType:subs[0] ? subs[0] : '',\n            room:subs[1] ? subs[1] : '',\n            place:subs[2] ? subs[2] : '',\n            availableStyleButtons: [\n                { name: 'Button 1', id: 'hue.0.Mobilerschalter_Büro_HueTab.lastupdated&%&34', role: 'button' },\n                { name: 'Button 2', id: 'hue.0.Mobilerschalter_Büro_HueTab.lastupdated&%&16', role: 'button' },\n                { name: 'Button 3', id: 'hue.0.Mobilerschalter_Büro_HueTab.lastupdated&%&17', role: 'button' },\n                { name: 'Button 4', id: 'hue.0.Mobilerschalter_Büro_HueTab.lastupdated&%&18', role: 'button' }\n                //{ name: 'Button 1', id: 'hue.0.Mobilerschalter_Büro_HueTab.buttonevent&%&34', role: 'button' },\n                //{ name: 'Button 2', id: 'hue.0.Mobilerschalter_Büro_HueTab.buttonevent&%&16', role: 'button' },\n                //{ name: 'Button 3', id: 'hue.0.Mobilerschalter_Büro_HueTab.buttonevent&%&17', role: 'button' },\n                //{ name: 'Button 4', id: 'hue.0.Mobilerschalter_Büro_HueTab.buttonevent&%&18', role: 'button' }\n            ]\n        }\n    }\n}\nmsg.payload = tmpPL\nreturn msg;",
+        "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 1140,
         "y": 1600,
-        "wires": [["bc9813ac1abd612f"], []],
-        "outputLabels": ["object", "array"]
+        "wires": [["bc9813ac1abd612f"]],
+        "outputLabels": ["object"]
     },
     {
         "id": "27824b3492f0e297",
@@ -6457,29 +6691,6 @@
         "wires": [["372f94352a3b4567"], ["0d40b313840b8f71"]]
     },
     {
-        "id": "5c7c06f837506970",
-        "type": "change",
-        "z": "14ce7768b920ca39",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 930,
-        "y": 1500,
-        "wires": [[]]
-    },
-    {
         "id": "0d40b313840b8f71",
         "type": "change",
         "z": "14ce7768b920ca39",
@@ -6501,6 +6712,319 @@
         "x": 690,
         "y": 1640,
         "wires": [["bc9813ac1abd612f"]]
+    },
+    {
+        "id": "092e4ff17a4f5b14",
+        "type": "link in",
+        "z": "14ce7768b920ca39",
+        "g": "d407a6a1e3f4dce5",
+        "name": "get_consumers",
+        "links": [],
+        "x": 160,
+        "y": 1740,
+        "wires": [["a7c1307cba6acb49"]],
+        "l": true
+    },
+    {
+        "id": "8debe7f8359bae51",
+        "type": "ioBroker list",
+        "z": "14ce7768b920ca39",
+        "g": "d407a6a1e3f4dce5",
+        "name": "get all hue Lampen Channels (Zimmer/Zone)",
+        "topic": "hue.0.*",
+        "objType": "channel",
+        "regex": "\\bZimmer|\\bZone",
+        "asArray": "true",
+        "onlyIDs": "false",
+        "withValues": "false",
+        "x": 650,
+        "y": 1740,
+        "wires": [["7e1603fb519e2bd8"]]
+    },
+    {
+        "id": "7e1603fb519e2bd8",
+        "type": "function",
+        "z": "14ce7768b920ca39",
+        "g": "d407a6a1e3f4dce5",
+        "name": "create List and filter channelType",
+        "func": "const tmpPL = {};\nfor(const channel of msg.payload){\n    const subs = channel.common.name.split(' ')\n    tmpPL[`${channel._id}`] = {\n        id:channel._id,\n        name:channel.common.name,\n        adapterName:'Hue',\n        channelType:'Lampe',\n        type:subs.shift(),\n        info:subs.join(\" \"),\n        scenes:[]\n    }\n}\nmsg.payload = tmpPL\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 1740,
+        "wires": [["7b760cfbd079f621"]]
+    },
+    {
+        "id": "a7c1307cba6acb49",
+        "type": "switch",
+        "z": "14ce7768b920ca39",
+        "g": "d407a6a1e3f4dce5",
+        "name": "filter",
+        "property": "searchFilter",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "wandschalter",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Mobilerschalter",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Lichtschalter",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 330,
+        "y": 1740,
+        "wires": [["8debe7f8359bae51"], ["8debe7f8359bae51"], ["8c289da74b133a5a"]],
+        "outputLabels": ["wandschalter", "Mobilerschalter", ""]
+    },
+    {
+        "id": "02f1e69df1a1933c",
+        "type": "link out",
+        "z": "14ce7768b920ca39",
+        "g": "d407a6a1e3f4dce5",
+        "name": "",
+        "mode": "return",
+        "links": [],
+        "x": 2195,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "8410ab7f2aa4b70f",
+        "type": "function",
+        "z": "14ce7768b920ca39",
+        "g": "d407a6a1e3f4dce5",
+        "name": "add Specials",
+        "func": "msg.payload['hue.0.All.anyOn'] = {\n    id: 'hue.0.All.anyOn',\n    name: 'Hue all',\n    adapterName: 'Hue',\n    channelType: 'Lampe',\n    type: 'Home',\n    info: 'Wollerau',\n    scenes: []\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2070,
+        "y": 1960,
+        "wires": [["02f1e69df1a1933c"]]
+    },
+    {
+        "id": "8c289da74b133a5a",
+        "type": "ioBroker list",
+        "z": "14ce7768b920ca39",
+        "g": "d407a6a1e3f4dce5",
+        "name": "get all hueRelaisSchalter",
+        "topic": "hue.0.*",
+        "objType": "channel",
+        "regex": "\\bRelaisSchalter",
+        "asArray": "true",
+        "onlyIDs": "false",
+        "withValues": "false",
+        "x": 590,
+        "y": 1800,
+        "wires": [["fe157a70eda772dc"]]
+    },
+    {
+        "id": "fe157a70eda772dc",
+        "type": "function",
+        "z": "14ce7768b920ca39",
+        "g": "d407a6a1e3f4dce5",
+        "name": "create List and filter channelType",
+        "func": "const tmpPL = {};\nfor(const channel of msg.payload){\n    const subs = channel.common.name.split(' ')\n    tmpPL[`${channel._id}`] = {\n        id:channel._id,\n        name:channel.common.name,\n        adapterName:'Hue',\n        channelType:'RelaisSchalter',\n        type:subs.shift(),\n        info:subs.join(\" \"),\n        scenes:[]\n    }\n}\nmsg.payload = tmpPL\nreturn [msg,msg];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 1800,
+        "wires": [["019e7f2f489490fb"], ["3bdcc8e0b9399e8c"]]
+    },
+    {
+        "id": "7b760cfbd079f621",
+        "type": "split",
+        "z": "14ce7768b920ca39",
+        "g": "ef87fe5d894d5803",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 1390,
+        "y": 1740,
+        "wires": [["d2bc235d30bf0a3d"]]
+    },
+    {
+        "id": "3e013438955583dd",
+        "type": "join",
+        "z": "14ce7768b920ca39",
+        "g": "ef87fe5d894d5803",
+        "name": "",
+        "mode": "auto",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": "false",
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "x": 1890,
+        "y": 1860,
+        "wires": [["8410ab7f2aa4b70f"]]
+    },
+    {
+        "id": "f1db539c13dcd143",
+        "type": "change",
+        "z": "14ce7768b920ca39",
+        "g": "ef87fe5d894d5803",
+        "name": "",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "tmp",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1730,
+        "y": 1860,
+        "wires": [["3e013438955583dd"]]
+    },
+    {
+        "id": "d2bc235d30bf0a3d",
+        "type": "change",
+        "z": "14ce7768b920ca39",
+        "g": "ef87fe5d894d5803",
+        "name": "Create Topic & tmp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "payload.id",
+                "tot": "msg"
+            },
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "tmp",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1570,
+        "y": 1740,
+        "wires": [["0e7fcb1111f3a2e6"]]
+    },
+    {
+        "id": "4fcfb49637cc6e3c",
+        "type": "ioBroker list",
+        "z": "14ce7768b920ca39",
+        "g": "ef87fe5d894d5803",
+        "name": "get all scene",
+        "topic": "",
+        "objType": "state",
+        "regex": "\\bscene_",
+        "asArray": "true",
+        "onlyIDs": "false",
+        "withValues": "false",
+        "x": 1570,
+        "y": 1800,
+        "wires": [["958534be415436ac"]]
+    },
+    {
+        "id": "0e7fcb1111f3a2e6",
+        "type": "function",
+        "z": "14ce7768b920ca39",
+        "g": "ef87fe5d894d5803",
+        "name": "add a *",
+        "func": "msg.topic = msg.topic + \".*\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1760,
+        "y": 1740,
+        "wires": [["4fcfb49637cc6e3c"]]
+    },
+    {
+        "id": "958534be415436ac",
+        "type": "function",
+        "z": "14ce7768b920ca39",
+        "g": "ef87fe5d894d5803",
+        "name": "create List and filter channelType",
+        "func": "for(const scene of msg.payload){\n    msg.tmp.scenes.push({\n        id:scene._id,\n        name:scene.common.name\n    })\n}\nmsg.payload = msg.tmp\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1480,
+        "y": 1860,
+        "wires": [["f1db539c13dcd143"]]
+    },
+    {
+        "id": "019e7f2f489490fb",
+        "type": "function",
+        "z": "14ce7768b920ca39",
+        "g": "d407a6a1e3f4dce5",
+        "name": "add ioBroker States",
+        "func": "const switches = Object.keys(msg.payload)\nfor (const _switch of switches){\n\n    msg.payload = {\n        stateID: _switch + '.on',\n        urls: [global.get('global__webAppSwitchURL')],\n    }\n    msg.url = global.get('global__sgWebAPIURL') + 'iobroker/addURLNotificationSubscription'\n    node.send(msg)\n}\nreturn;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 1780,
+        "wires": [["14b85633c8dca7ff"]],
+        "outputLabels": ["has to register"]
+    },
+    {
+        "id": "14b85633c8dca7ff",
+        "type": "http request",
+        "z": "14ce7768b920ca39",
+        "g": "d407a6a1e3f4dce5",
+        "name": "",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1210,
+        "y": 1820,
+        "wires": [[]]
     },
     {
         "id": "e419aa88280f4962",
@@ -6962,15 +7486,20 @@
                 "vt": "str"
             },
             {
+                "t": "eq",
+                "v": "get_consumers",
+                "vt": "str"
+            },
+            {
                 "t": "else"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 3,
+        "outputs": 4,
         "x": 130,
         "y": 120,
-        "wires": [["4bad971ea424c6cb"], ["4bad971ea424c6cb"], ["f504f03fb899dd6e"]]
+        "wires": [["4bad971ea424c6cb"], ["4bad971ea424c6cb"], ["4bad971ea424c6cb"], ["f504f03fb899dd6e"]]
     },
     {
         "id": "4bad971ea424c6cb",
@@ -7023,7 +7552,7 @@
             },
             {
                 "p": "payload.commands",
-                "v": "[\"init_consumer\",\"_switch\"]",
+                "v": "[\"init_consumer\",\"_switch\",\"get_consumers\"]",
                 "vt": "json"
             },
             {
@@ -7091,6 +7620,85 @@
         "links": [],
         "x": 615,
         "y": 740,
+        "wires": []
+    },
+    {
+        "id": "2451dba2d19d832f",
+        "type": "link in",
+        "z": "164be6b67a87f9cb",
+        "name": "get_consumers",
+        "links": [],
+        "x": 320,
+        "y": 800,
+        "wires": [["3ae0564b999d7383"]],
+        "l": true
+    },
+    {
+        "id": "3ae0564b999d7383",
+        "type": "switch",
+        "z": "164be6b67a87f9cb",
+        "name": "filter",
+        "property": "searchFilter",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "wandschalter",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Mobilerschalter",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 490,
+        "y": 800,
+        "wires": [["ad69754b289e86ab"], ["ad69754b289e86ab"]],
+        "outputLabels": ["wandschalter", "Mobilerschalter"]
+    },
+    {
+        "id": "ad69754b289e86ab",
+        "type": "ioBroker list",
+        "z": "164be6b67a87f9cb",
+        "name": "get all SmartThings Device",
+        "topic": "smartthings.0.*",
+        "objType": "device",
+        "regex": "",
+        "asArray": "true",
+        "onlyIDs": "false",
+        "withValues": "false",
+        "x": 700,
+        "y": 800,
+        "wires": [["7001c729e110e46a"]]
+    },
+    {
+        "id": "7001c729e110e46a",
+        "type": "function",
+        "z": "164be6b67a87f9cb",
+        "name": "create List and filter channelType",
+        "func": "const tmpPL = {};\nfor(const channel of msg.payload){\n    const subs = channel.common.name.split(' ');\n    if(channel.common && typeof channel.common.name === 'string' && channel.common.name.startsWith('OnOff'))\n    tmpPL[`${channel._id}`] = {\n        id:channel._id,\n        name:channel.common.name,\n        adapterName:'Smartthings',\n        channelType:'OnOff',\n        type:subs.shift(),\n        info:subs.join(\" \"),\n        scenes:[]\n    }\n}\nmsg.payload = tmpPL\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 800,
+        "wires": [["69c5aa9efb426e6f"]]
+    },
+    {
+        "id": "69c5aa9efb426e6f",
+        "type": "link out",
+        "z": "164be6b67a87f9cb",
+        "name": "",
+        "mode": "return",
+        "links": [],
+        "x": 1165,
+        "y": 800,
         "wires": []
     },
     {
@@ -7996,65 +8604,6 @@
         "wires": [["7dacb137a87a36fc"]]
     },
     {
-        "id": "330de1706bad550f",
-        "type": "inject",
-        "z": "99bcb3fc20c2db95",
-        "g": "a67235455bc3632d",
-        "name": "envSettings",
-        "props": [
-            {
-                "p": "adapterName",
-                "v": "nodeRed-sg",
-                "vt": "str"
-            },
-            {
-                "p": "instanceNumber",
-                "v": "0",
-                "vt": "str"
-            },
-            {
-                "p": "ioBWebAppPort",
-                "v": "8089",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "0.3",
-        "topic": "",
-        "x": 190,
-        "y": 160,
-        "wires": [["3c232d9d2b3b92c3"]]
-    },
-    {
-        "id": "d5cdd6a49ffb3df3",
-        "type": "function",
-        "z": "99bcb3fc20c2db95",
-        "g": "a67235455bc3632d",
-        "name": "storeEnv2Context",
-        "func": "for (const [key, value] of Object.entries(msg)){\n    if([\"_msgid\", \"payload\", \"topic\"].includes(key)){\n        continue;\n    }\n    global.set(\"global__\" +key,value);\n}\n\n//global.set('adapter', msg.adapterName);\nglobal.set('global__instance', `${msg.adapterName}.${msg.instanceNumber}`);\nglobal.set('global__webAppSwitchURL', `${msg.payload.url }/${msg.adapterName}/${msg.instanceNumber}/switch`);\nglobal.set('global__ioBrokerIP', msg.payload.ip);\nglobal.set('global__ioBrokerURL', msg.payload.url);\nglobal.set('global__sgWebAPIURL', `${msg.payload.protocol}://${msg.payload.ip}:${msg.ioBWebAppPort}/`)\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 160,
-        "wires": [["33203fbe63c2ca1a"]],
-        "info": "stores environment variables in Flow Context"
-    },
-    {
-        "id": "3c232d9d2b3b92c3",
-        "type": "subflow:fc41063a409cd0e5",
-        "z": "99bcb3fc20c2db95",
-        "g": "a67235455bc3632d",
-        "name": "",
-        "x": 390,
-        "y": 160,
-        "wires": [["d5cdd6a49ffb3df3"]]
-    },
-    {
         "id": "dbb87f43a34b25ef",
         "type": "inject",
         "z": "99bcb3fc20c2db95",
@@ -8198,6 +8747,65 @@
         "wires": []
     },
     {
+        "id": "330de1706bad550f",
+        "type": "inject",
+        "z": "99bcb3fc20c2db95",
+        "g": "a67235455bc3632d",
+        "name": "envSettings",
+        "props": [
+            {
+                "p": "adapterName",
+                "v": "nodeRed-sg",
+                "vt": "str"
+            },
+            {
+                "p": "instanceNumber",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "p": "ioBWebAppPort",
+                "v": "8089",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.3",
+        "topic": "",
+        "x": 190,
+        "y": 140,
+        "wires": [["3c232d9d2b3b92c3"]]
+    },
+    {
+        "id": "d5cdd6a49ffb3df3",
+        "type": "function",
+        "z": "99bcb3fc20c2db95",
+        "g": "a67235455bc3632d",
+        "name": "storeEnv2Context",
+        "func": "for (const [key, value] of Object.entries(msg)){\n    if([\"_msgid\", \"payload\", \"topic\"].includes(key)){\n        continue;\n    }\n    global.set(\"global__\" +key,value);\n}\n\n//global.set('adapter', msg.adapterName);\nglobal.set('global__instance', `${msg.adapterName}.${msg.instanceNumber}`);\nglobal.set('global__webAppSwitchURL', `${msg.payload.url }/${msg.adapterName}/${msg.instanceNumber}/switch`);\nglobal.set('global__ioBrokerIP', msg.payload.ip);\nglobal.set('global__ioBrokerURL', msg.payload.url);\nglobal.set('global__sgWebAPIURL', `${msg.payload.protocol}://${msg.payload.ip}:${msg.ioBWebAppPort}/`)\nreturn {_msgid: msg._msgid};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 140,
+        "wires": [["33203fbe63c2ca1a"]],
+        "info": "stores environment variables in Flow Context"
+    },
+    {
+        "id": "3c232d9d2b3b92c3",
+        "type": "subflow:fc41063a409cd0e5",
+        "z": "99bcb3fc20c2db95",
+        "g": "a67235455bc3632d",
+        "name": "",
+        "x": 390,
+        "y": 140,
+        "wires": [["d5cdd6a49ffb3df3"]]
+    },
+    {
         "id": "33203fbe63c2ca1a",
         "type": "change",
         "z": "99bcb3fc20c2db95",
@@ -8217,8 +8825,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 780,
-        "y": 160,
+        "x": 820,
+        "y": 140,
         "wires": [["547f753748817516"]]
     },
     {
@@ -8230,8 +8838,8 @@
         "links": ["ae1761185f12233d"],
         "linkType": "static",
         "timeout": "120",
-        "x": 1040,
-        "y": 160,
+        "x": 1100,
+        "y": 140,
         "wires": [[]]
     },
     {
@@ -8400,6 +9008,11 @@
                 "pt": "msg",
                 "to": "payload",
                 "tot": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
             }
         ],
         "action": "",
@@ -8874,8 +9487,8 @@
         "g": "9616bd1a4d05ba18",
         "name": "GLOBAL::Device-SB::Hue",
         "links": [],
-        "x": 410,
-        "y": 1420,
+        "x": 390,
+        "y": 1540,
         "wires": [["1d0dade2eec1e4ba"]],
         "icon": "node-red/debug.svg",
         "l": true
@@ -8884,10 +9497,11 @@
         "id": "3dd41530b9369607",
         "type": "link in",
         "z": "0d0d3796186d94ef",
+        "g": "bd270ade17388d59",
         "name": "GLOBAL::Device-SB::checkOutputPerCommand&Cleanup",
         "links": [],
-        "x": 510,
-        "y": 1100,
+        "x": 530,
+        "y": 1200,
         "wires": [["b09a34bf5ba70705"]],
         "icon": "node-red-node-twitter/twitter.png",
         "l": true,
@@ -8899,8 +9513,8 @@
         "z": "0d0d3796186d94ef",
         "name": "GLOBAL::Device-SB::handleError",
         "links": [],
-        "x": 430,
-        "y": 1240,
+        "x": 410,
+        "y": 1360,
         "wires": [["c5d6681f4f6168bf"]],
         "icon": "node-red-node-twitter/twitter.png",
         "l": true,
@@ -8910,11 +9524,12 @@
         "id": "41c4fd7605eff973",
         "type": "link out",
         "z": "0d0d3796186d94ef",
+        "g": "bd270ade17388d59",
         "name": "link out 56",
         "mode": "return",
         "links": [],
-        "x": 1365,
-        "y": 1100,
+        "x": 1355,
+        "y": 1200,
         "wires": []
     },
     {
@@ -8924,18 +9539,19 @@
         "name": "link out 57",
         "mode": "return",
         "links": [],
-        "x": 1055,
-        "y": 1240,
+        "x": 1035,
+        "y": 1360,
         "wires": []
     },
     {
         "id": "8013936346ea99a3",
         "type": "link in",
         "z": "0d0d3796186d94ef",
+        "g": "8d1c2821979ae628",
         "name": "GLOBAL::Device-SB::checkInputPerCommand",
         "links": [],
-        "x": 480,
-        "y": 880,
+        "x": 500,
+        "y": 940,
         "wires": [["8632386097bf8996"]],
         "icon": "node-red-node-twitter/twitter.png",
         "l": true,
@@ -8945,17 +9561,19 @@
         "id": "3aca1db0b6ac5391",
         "type": "link out",
         "z": "0d0d3796186d94ef",
+        "g": "8d1c2821979ae628",
         "name": "link out 58",
         "mode": "return",
         "links": [],
-        "x": 1335,
-        "y": 880,
+        "x": 1355,
+        "y": 920,
         "wires": []
     },
     {
         "id": "ea1bd52c9d4477b4",
         "type": "change",
         "z": "0d0d3796186d94ef",
+        "g": "8d1c2821979ae628",
         "name": "command > target",
         "rules": [
             {
@@ -8971,14 +9589,15 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1210,
-        "y": 880,
+        "x": 1230,
+        "y": 920,
         "wires": [["3aca1db0b6ac5391"]]
     },
     {
         "id": "8632386097bf8996",
         "type": "switch",
         "z": "0d0d3796186d94ef",
+        "g": "8d1c2821979ae628",
         "name": "command",
         "property": "command",
         "propertyType": "msg",
@@ -8997,34 +9616,41 @@
                 "t": "eq",
                 "v": "get_switches",
                 "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "get_consumers",
+                "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 3,
-        "x": 740,
-        "y": 880,
-        "wires": [["84488534d789123e"], ["e5d4b1dca4fb1570"], ["e37655ce2b73e41e"]]
+        "outputs": 4,
+        "x": 760,
+        "y": 940,
+        "wires": [["84488534d789123e"], ["e5d4b1dca4fb1570"], ["e37655ce2b73e41e"], ["4389b6f6a462d5f1"]]
     },
     {
         "id": "84488534d789123e",
         "type": "function",
         "z": "0d0d3796186d94ef",
-        "name": "check init_consumer Input",
+        "g": "8d1c2821979ae628",
+        "name": "init_consumer",
         "func": "msg.validated = true;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 960,
-        "y": 840,
+        "x": 940,
+        "y": 880,
         "wires": [["ea1bd52c9d4477b4"]]
     },
     {
         "id": "b09a34bf5ba70705",
         "type": "switch",
         "z": "0d0d3796186d94ef",
+        "g": "bd270ade17388d59",
         "name": "command",
         "property": "command",
         "propertyType": "msg",
@@ -9043,41 +9669,43 @@
                 "t": "eq",
                 "v": "get_switches",
                 "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "get_consumers",
+                "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 3,
-        "x": 800,
-        "y": 1100,
-        "wires": [["3ed18a46558ae287"], ["24ed4b53b11dabf9"], ["033a382e2c7a9a12"]]
+        "outputs": 4,
+        "x": 820,
+        "y": 1200,
+        "wires": [["3ed18a46558ae287"], ["24ed4b53b11dabf9"], ["033a382e2c7a9a12"], ["683d154951ae7b28"]]
     },
     {
         "id": "3ed18a46558ae287",
         "type": "function",
         "z": "0d0d3796186d94ef",
-        "name": "check & clean init_consumer Output",
+        "g": "bd270ade17388d59",
+        "name": "init_consumer",
         "func": "\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1030,
-        "y": 1060,
+        "x": 980,
+        "y": 1160,
         "wires": [["72505e6b24f66bda"]]
     },
     {
         "id": "72505e6b24f66bda",
         "type": "change",
         "z": "0d0d3796186d94ef",
+        "g": "bd270ade17388d59",
         "name": "clean",
         "rules": [
-            {
-                "t": "delete",
-                "p": "target",
-                "pt": "msg"
-            },
             {
                 "t": "delete",
                 "p": "validated",
@@ -9092,6 +9720,11 @@
                 "t": "delete",
                 "p": "devicePayload",
                 "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "target",
+                "pt": "msg"
             }
         ],
         "action": "",
@@ -9099,8 +9732,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1270,
-        "y": 1100,
+        "x": 1250,
+        "y": 1200,
         "wires": [["41c4fd7605eff973"]]
     },
     {
@@ -9111,8 +9744,8 @@
         "links": ["3dd41530b9369607"],
         "linkType": "static",
         "timeout": "30",
-        "x": 800,
-        "y": 1240,
+        "x": 780,
+        "y": 1360,
         "wires": [["a556c4c8b4e8f6b0"]]
     },
     {
@@ -9121,8 +9754,8 @@
         "z": "0d0d3796186d94ef",
         "g": "9616bd1a4d05ba18",
         "name": "",
-        "x": 1240,
-        "y": 1440,
+        "x": 1220,
+        "y": 1560,
         "wires": [["a9c5b26b3d5e14fb"]]
     },
     {
@@ -9133,8 +9766,8 @@
         "name": "link out 59",
         "mode": "return",
         "links": [],
-        "x": 1875,
-        "y": 1420,
+        "x": 1855,
+        "y": 1540,
         "wires": []
     },
     {
@@ -9146,8 +9779,8 @@
         "links": ["8013936346ea99a3"],
         "linkType": "static",
         "timeout": "30",
-        "x": 780,
-        "y": 1420,
+        "x": 760,
+        "y": 1540,
         "wires": [["acbe14544aabbdd5"]]
     },
     {
@@ -9159,8 +9792,8 @@
         "links": ["3dd41530b9369607"],
         "linkType": "static",
         "timeout": "30",
-        "x": 1620,
-        "y": 1420,
+        "x": 1600,
+        "y": 1540,
         "wires": [["e464853543c85eb4"]]
     },
     {
@@ -9182,8 +9815,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1030,
-        "y": 1420,
+        "x": 1010,
+        "y": 1540,
         "wires": [["a9c5b26b3d5e14fb"], ["6418c61b33fce572"]]
     },
     {
@@ -9193,23 +9826,11 @@
         "g": "9616bd1a4d05ba18",
         "name": "GLOBAL::Device-SB::Mihome",
         "links": [],
-        "x": 420,
-        "y": 1480,
+        "x": 400,
+        "y": 1600,
         "wires": [["6f4eebfa93f3af6b"]],
         "icon": "node-red/debug.svg",
         "l": true
-    },
-    {
-        "id": "8663b53279ac4f43",
-        "type": "link out",
-        "z": "0d0d3796186d94ef",
-        "g": "9616bd1a4d05ba18",
-        "name": "link out 60",
-        "mode": "return",
-        "links": [],
-        "x": 1875,
-        "y": 1480,
-        "wires": []
     },
     {
         "id": "6f4eebfa93f3af6b",
@@ -9220,22 +9841,9 @@
         "links": ["8013936346ea99a3"],
         "linkType": "static",
         "timeout": "30",
-        "x": 780,
-        "y": 1480,
+        "x": 760,
+        "y": 1600,
         "wires": [["8e0ce8ef02b95372"]]
-    },
-    {
-        "id": "f06c9de70ea67719",
-        "type": "link call",
-        "z": "0d0d3796186d94ef",
-        "g": "9616bd1a4d05ba18",
-        "name": "",
-        "links": ["3dd41530b9369607"],
-        "linkType": "static",
-        "timeout": "30",
-        "x": 1620,
-        "y": 1480,
-        "wires": [["8663b53279ac4f43"]]
     },
     {
         "id": "8e0ce8ef02b95372",
@@ -9256,8 +9864,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1030,
-        "y": 1480,
+        "x": 1010,
+        "y": 1600,
         "wires": [["f06c9de70ea67719"], ["bef7e308cc1b695e"]]
     },
     {
@@ -9266,8 +9874,8 @@
         "z": "0d0d3796186d94ef",
         "g": "9616bd1a4d05ba18",
         "name": "",
-        "x": 1240,
-        "y": 1500,
+        "x": 1220,
+        "y": 1620,
         "wires": [["f06c9de70ea67719"]]
     },
     {
@@ -9277,23 +9885,11 @@
         "g": "9616bd1a4d05ba18",
         "name": "GLOBAL::Device-SB::Shelly",
         "links": [],
-        "x": 420,
-        "y": 1540,
+        "x": 400,
+        "y": 1660,
         "wires": [["ba91e61dd9d0f0e8"]],
         "icon": "node-red/debug.svg",
         "l": true
-    },
-    {
-        "id": "a724650673a9ade0",
-        "type": "link out",
-        "z": "0d0d3796186d94ef",
-        "g": "9616bd1a4d05ba18",
-        "name": "link out 61",
-        "mode": "return",
-        "links": [],
-        "x": 1875,
-        "y": 1540,
-        "wires": []
     },
     {
         "id": "ba91e61dd9d0f0e8",
@@ -9304,22 +9900,9 @@
         "links": ["8013936346ea99a3"],
         "linkType": "static",
         "timeout": "30",
-        "x": 780,
-        "y": 1540,
+        "x": 760,
+        "y": 1660,
         "wires": [["61bf83bf9ac02997"]]
-    },
-    {
-        "id": "283cc01c7f16a559",
-        "type": "link call",
-        "z": "0d0d3796186d94ef",
-        "g": "9616bd1a4d05ba18",
-        "name": "",
-        "links": ["3dd41530b9369607"],
-        "linkType": "static",
-        "timeout": "30",
-        "x": 1620,
-        "y": 1540,
-        "wires": [["a724650673a9ade0"]]
     },
     {
         "id": "61bf83bf9ac02997",
@@ -9340,8 +9923,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1030,
-        "y": 1540,
+        "x": 1010,
+        "y": 1660,
         "wires": [["283cc01c7f16a559"], ["bc15d8c27d4a4334"]]
     },
     {
@@ -9350,8 +9933,8 @@
         "z": "0d0d3796186d94ef",
         "g": "9616bd1a4d05ba18",
         "name": "",
-        "x": 1240,
-        "y": 1560,
+        "x": 1220,
+        "y": 1680,
         "wires": [["283cc01c7f16a559"]]
     },
     {
@@ -9361,23 +9944,11 @@
         "g": "9616bd1a4d05ba18",
         "name": "GLOBAL::Device-SB::Smartthings",
         "links": [],
-        "x": 440,
-        "y": 1600,
+        "x": 420,
+        "y": 1720,
         "wires": [["bc29dbd39ce63219"]],
         "icon": "node-red/debug.svg",
         "l": true
-    },
-    {
-        "id": "2c871e23a8369878",
-        "type": "link out",
-        "z": "0d0d3796186d94ef",
-        "g": "9616bd1a4d05ba18",
-        "name": "link out 62",
-        "mode": "return",
-        "links": [],
-        "x": 1875,
-        "y": 1600,
-        "wires": []
     },
     {
         "id": "bc29dbd39ce63219",
@@ -9388,22 +9959,9 @@
         "links": ["8013936346ea99a3"],
         "linkType": "static",
         "timeout": "30",
-        "x": 780,
-        "y": 1600,
+        "x": 760,
+        "y": 1720,
         "wires": [["de16e5a0be2a6f5c"]]
-    },
-    {
-        "id": "fd07ab3258c50536",
-        "type": "link call",
-        "z": "0d0d3796186d94ef",
-        "g": "9616bd1a4d05ba18",
-        "name": "",
-        "links": ["3dd41530b9369607"],
-        "linkType": "static",
-        "timeout": "30",
-        "x": 1620,
-        "y": 1600,
-        "wires": [["2c871e23a8369878"]]
     },
     {
         "id": "de16e5a0be2a6f5c",
@@ -9424,8 +9982,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1030,
-        "y": 1600,
+        "x": 1010,
+        "y": 1720,
         "wires": [["fd07ab3258c50536"], ["0d94f8066b3a8580"]]
     },
     {
@@ -9434,8 +9992,8 @@
         "z": "0d0d3796186d94ef",
         "g": "9616bd1a4d05ba18",
         "name": "",
-        "x": 1240,
-        "y": 1620,
+        "x": 1220,
+        "y": 1740,
         "wires": [["fd07ab3258c50536"]]
     },
     {
@@ -9444,8 +10002,8 @@
         "z": "0d0d3796186d94ef",
         "name": "GLOBAL::Device-SB::proceedAllWithCommand",
         "links": [],
-        "x": 480,
-        "y": 1300,
+        "x": 460,
+        "y": 1420,
         "wires": [["1e750ac01522e79e"]],
         "icon": "node-red-node-twitter/twitter.png",
         "l": true,
@@ -9462,8 +10020,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
-        "y": 1300,
+        "x": 1080,
+        "y": 1420,
         "wires": [["81f0cd6aec3883e8"]]
     },
     {
@@ -9477,8 +10035,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 750,
-        "y": 1300,
+        "x": 730,
+        "y": 1420,
         "wires": [["d273c43622b68664"]]
     },
     {
@@ -9514,8 +10072,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
-        "y": 1300,
+        "x": 900,
+        "y": 1420,
         "wires": [["708011890b9d798e"]]
     },
     {
@@ -9529,8 +10087,8 @@
         "arraySpltType": "len",
         "stream": false,
         "addname": "",
-        "x": 1390,
-        "y": 1320,
+        "x": 1370,
+        "y": 1440,
         "wires": [["4897648db8119b54"]]
     },
     {
@@ -9541,8 +10099,8 @@
         "links": [],
         "linkType": "dynamic",
         "timeout": "30",
-        "x": 1700,
-        "y": 1320,
+        "x": 1680,
+        "y": 1440,
         "wires": [["80dad5f0a25c2d2f"]]
     },
     {
@@ -9571,8 +10129,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1510,
-        "y": 1320,
+        "x": 1490,
+        "y": 1440,
         "wires": [["83ad6aab50c0b893"]]
     },
     {
@@ -9582,8 +10140,8 @@
         "name": "link out 63",
         "mode": "return",
         "links": [],
-        "x": 2015,
-        "y": 1300,
+        "x": 2075,
+        "y": 1420,
         "wires": []
     },
     {
@@ -9604,9 +10162,9 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1270,
-        "y": 1300,
-        "wires": [["b8e51f05df1fff21"], ["259993aba215e3db", "814dceb820a73521"]]
+        "x": 1250,
+        "y": 1420,
+        "wires": [["c4593ee2f3fed080", "adc95bbdf3bb8d67"], ["259993aba215e3db"]]
     },
     {
         "id": "80dad5f0a25c2d2f",
@@ -9624,15 +10182,209 @@
         "timeout": "",
         "count": "",
         "reduceRight": false,
-        "x": 1890,
-        "y": 1320,
-        "wires": [["b8e51f05df1fff21"]]
+        "x": 1870,
+        "y": 1440,
+        "wires": [["c4593ee2f3fed080"]]
     },
     {
         "id": "e5d4b1dca4fb1570",
         "type": "function",
         "z": "0d0d3796186d94ef",
-        "name": "check init_switch Input",
+        "g": "8d1c2821979ae628",
+        "name": "init_switch",
+        "func": "msg.validated = true;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 920,
+        "wires": [["ea1bd52c9d4477b4"]]
+    },
+    {
+        "id": "24ed4b53b11dabf9",
+        "type": "function",
+        "z": "0d0d3796186d94ef",
+        "g": "bd270ade17388d59",
+        "name": "init_switch",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 1200,
+        "wires": [["72505e6b24f66bda"]]
+    },
+    {
+        "id": "e37655ce2b73e41e",
+        "type": "function",
+        "z": "0d0d3796186d94ef",
+        "g": "8d1c2821979ae628",
+        "name": "get_switches",
+        "func": "/** \n*  Input Object\n* \n*   msg.paylaod: {\n*\t ConfigFunctionName!: string\n*\t filter!: string\n*\t switches!: string[]\n*\t consumers!: string[]\n*   }\n*/\n\nmsg.validated = true;\n\n//check payload\n\nif (!(msg && msg.payload)) msg.validated = false;\n\nconst keys = Object.keys(msg.payload);\nconst mustKeys = ['ConfigFunctionName', 'filter', 'switches', 'consumers'];\nconst difference = keys.filter(x => !mustKeys.includes(x)).concat(mustKeys.filter(x => !keys.includes(x)));\nif (difference.length !== 0) msg.validated = false;\n\nif (typeof msg.payload.ConfigFunctionName !== 'string') msg.validated = false;\nif (typeof msg.payload.filter !== 'string') msg.validated = false;\nif (!Array.isArray(msg.payload.switches)) msg.validated = false;\nif (!Array.isArray(msg.payload.consumers)) msg.validated = false;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 960,
+        "wires": [["ea1bd52c9d4477b4"]]
+    },
+    {
+        "id": "033a382e2c7a9a12",
+        "type": "function",
+        "z": "0d0d3796186d94ef",
+        "g": "bd270ade17388d59",
+        "name": "get_switches",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 1240,
+        "wires": [["72505e6b24f66bda"]]
+    },
+    {
+        "id": "c4593ee2f3fed080",
+        "type": "change",
+        "z": "0d0d3796186d94ef",
+        "name": "clean",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "command",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1990,
+        "y": 1420,
+        "wires": [["b8e51f05df1fff21"]]
+    },
+    {
+        "id": "adc95bbdf3bb8d67",
+        "type": "debug",
+        "z": "0d0d3796186d94ef",
+        "name": "debug 33",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1640,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "f06c9de70ea67719",
+        "type": "link call",
+        "z": "0d0d3796186d94ef",
+        "g": "9616bd1a4d05ba18",
+        "name": "",
+        "links": ["3dd41530b9369607"],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 1600,
+        "y": 1600,
+        "wires": [["8663b53279ac4f43"]]
+    },
+    {
+        "id": "8663b53279ac4f43",
+        "type": "link out",
+        "z": "0d0d3796186d94ef",
+        "g": "9616bd1a4d05ba18",
+        "name": "link out 60",
+        "mode": "return",
+        "links": [],
+        "x": 1855,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "283cc01c7f16a559",
+        "type": "link call",
+        "z": "0d0d3796186d94ef",
+        "g": "9616bd1a4d05ba18",
+        "name": "",
+        "links": ["3dd41530b9369607"],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 1600,
+        "y": 1660,
+        "wires": [["a724650673a9ade0"]]
+    },
+    {
+        "id": "a724650673a9ade0",
+        "type": "link out",
+        "z": "0d0d3796186d94ef",
+        "g": "9616bd1a4d05ba18",
+        "name": "link out 61",
+        "mode": "return",
+        "links": [],
+        "x": 1855,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "fd07ab3258c50536",
+        "type": "link call",
+        "z": "0d0d3796186d94ef",
+        "g": "9616bd1a4d05ba18",
+        "name": "",
+        "links": ["3dd41530b9369607"],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 1600,
+        "y": 1720,
+        "wires": [["2c871e23a8369878"]]
+    },
+    {
+        "id": "2c871e23a8369878",
+        "type": "link out",
+        "z": "0d0d3796186d94ef",
+        "g": "9616bd1a4d05ba18",
+        "name": "link out 62",
+        "mode": "return",
+        "links": [],
+        "x": 1855,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "683d154951ae7b28",
+        "type": "function",
+        "z": "0d0d3796186d94ef",
+        "g": "bd270ade17388d59",
+        "name": "get_consumers",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 1280,
+        "wires": [["72505e6b24f66bda"]]
+    },
+    {
+        "id": "4389b6f6a462d5f1",
+        "type": "function",
+        "z": "0d0d3796186d94ef",
+        "g": "8d1c2821979ae628",
+        "name": "get_consumers",
         "func": "msg.validated = true;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
@@ -9640,69 +10392,8 @@
         "finalize": "",
         "libs": [],
         "x": 940,
-        "y": 880,
+        "y": 1000,
         "wires": [["ea1bd52c9d4477b4"]]
-    },
-    {
-        "id": "24ed4b53b11dabf9",
-        "type": "function",
-        "z": "0d0d3796186d94ef",
-        "name": "check & clean init_switch Output",
-        "func": "\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1020,
-        "y": 1100,
-        "wires": [["72505e6b24f66bda"]]
-    },
-    {
-        "id": "e37655ce2b73e41e",
-        "type": "function",
-        "z": "0d0d3796186d94ef",
-        "name": "check get_switches Input",
-        "func": "msg.validated = true;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 950,
-        "y": 920,
-        "wires": [["ea1bd52c9d4477b4"]]
-    },
-    {
-        "id": "033a382e2c7a9a12",
-        "type": "function",
-        "z": "0d0d3796186d94ef",
-        "name": "check & clean get_switches Output",
-        "func": "\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1020,
-        "y": 1140,
-        "wires": [["72505e6b24f66bda"]]
-    },
-    {
-        "id": "814dceb820a73521",
-        "type": "debug",
-        "z": "0d0d3796186d94ef",
-        "name": "debug 26",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1480,
-        "y": 1200,
-        "wires": []
     },
     {
         "id": "05dd875338a9d5ea",
@@ -9726,7 +10417,7 @@
         "z": "8e2e889e14c077b8",
         "g": "608bcb4eabe9512f",
         "name": "storeEnv2Context",
-        "func": "for (const [key, value] of Object.entries(msg)){\n    if([\"_msgid\", \"payload\", \"topic\"].includes(key)){\n        continue;\n    }\n    flow.set(key,value);\n}\n\nconst scriptVersionName = flow.get('__flow_scriptName') + \"_\" + flow.get('__flow_scriptVersion');\nflow.set('__flow_scriptVersionName', scriptVersionName)\n\nmsg.url = global.get('global__sgWebAPIURL') + 'iobroker/allInstanceNames'\nreturn msg;",
+        "func": "for (const [key, value] of Object.entries(msg.__flow)){\n    flow.set(key,value);\n}\n\nconst scriptVersionName = flow.get('__flow_scriptName') + \"_\" + flow.get('__flow_scriptVersion');\nflow.set('__flow_scriptVersionName', scriptVersionName)\n\nmsg.url = global.get('global__sgWebAPIURL') + 'iobroker/allInstanceNames'\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -9734,7 +10425,7 @@
         "libs": [],
         "x": 570,
         "y": 180,
-        "wires": [["2a113cf596defa8d"]],
+        "wires": [["39908a8a8d1f892b"]],
         "info": "stores environment variables in Flow Context"
     },
     {
@@ -9755,7 +10446,7 @@
         "name": "",
         "topic": "",
         "service": "_http._tcp",
-        "x": 1360,
+        "x": 1720,
         "y": 120,
         "wires": [["4c2b048c7486dd51"]]
     },
@@ -9771,7 +10462,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1530,
+        "x": 1890,
         "y": 120,
         "wires": []
     },
@@ -10338,13 +11029,13 @@
         "z": "8e2e889e14c077b8",
         "g": "608bcb4eabe9512f",
         "name": ">flow",
-        "func": "flow.set('__flow_shellyInstance', msg.payload.result.find(e => e.startsWith('shelly')) ?? 'shelly.0');\nreturn msg;",
+        "func": "flow.set('__flow_shellyInstance', msg.payload.result.find(e => e.startsWith('shelly')) ?? 'shelly.0');\nmsg.payload = undefined;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1130,
+        "x": 1250,
         "y": 180,
         "wires": [["7fb2d4c2db36b420"]]
     },
@@ -11725,9 +12416,9 @@
         "links": ["e08aac8da2b0dd69"],
         "linkType": "static",
         "timeout": "12",
-        "x": 880,
+        "x": 1000,
         "y": 180,
-        "wires": [["c630c9c67ef4b640"]]
+        "wires": [["d570ee85aa6a1fad"]]
     },
     {
         "id": "080bac8a54c58c6c",
@@ -11778,7 +12469,7 @@
         "name": "link out 39",
         "mode": "return",
         "links": [],
-        "x": 1215,
+        "x": 1355,
         "y": 180,
         "wires": []
     },
@@ -11791,49 +12482,56 @@
         "rules": [
             {
                 "t": "set",
-                "p": "__flow_scriptName",
+                "p": "__flow",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "__flow.__flow_scriptName",
                 "pt": "msg",
                 "to": "wandschalter_version_script",
                 "tot": "str"
             },
             {
                 "t": "set",
-                "p": "__flow_scriptVersion",
+                "p": "__flow.__flow_scriptVersion",
                 "pt": "msg",
                 "to": "0.41",
                 "tot": "str"
             },
             {
                 "t": "set",
-                "p": "__flow_mqttPort",
+                "p": "__flow.__flow_mqttPort",
                 "pt": "msg",
                 "to": "1882",
                 "tot": "str"
             },
             {
                 "t": "set",
-                "p": "__flow_mqttUser",
+                "p": "__flow.__flow_mqttUser",
                 "pt": "msg",
                 "to": "mqttuser",
                 "tot": "str"
             },
             {
                 "t": "set",
-                "p": "__flow_mqttPass",
+                "p": "__flow.__flow_mqttPass",
                 "pt": "msg",
                 "to": "mqttuser",
                 "tot": "str"
             },
             {
                 "t": "set",
-                "p": "__flow_init",
+                "p": "__flow.__flow_init",
                 "pt": "msg",
                 "to": "false",
                 "tot": "bool"
             },
             {
                 "t": "set",
-                "p": "__flow_onInitShellies",
+                "p": "__flow.__flow_onInitShellies",
                 "pt": "msg",
                 "to": "false",
                 "tot": "bool"
@@ -12023,31 +12721,6 @@
         "wires": [["e3b4596d072762e8"]]
     },
     {
-        "id": "c630c9c67ef4b640",
-        "type": "switch",
-        "z": "8e2e889e14c077b8",
-        "g": "608bcb4eabe9512f",
-        "name": "Error?",
-        "property": "error.source.type",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "http request",
-                "vt": "str"
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 1010,
-        "y": 180,
-        "wires": [[], ["14d9b33db857ad02"]]
-    },
-    {
         "id": "2a113cf596defa8d",
         "type": "change",
         "z": "8e2e889e14c077b8",
@@ -12067,7 +12740,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 740,
+        "x": 860,
         "y": 180,
         "wires": [["1613cae886b4eaaf"]]
     },
@@ -12283,12 +12956,92 @@
         "wires": [["11e5005f89edf349"]]
     },
     {
+        "id": "39908a8a8d1f892b",
+        "type": "change",
+        "z": "8e2e889e14c077b8",
+        "g": "608bcb4eabe9512f",
+        "name": "clear",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "__flow",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 180,
+        "wires": [["2a113cf596defa8d"]]
+    },
+    {
+        "id": "d570ee85aa6a1fad",
+        "type": "change",
+        "z": "8e2e889e14c077b8",
+        "g": "608bcb4eabe9512f",
+        "name": "clear",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "url",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "requestTimeout",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "statusCode",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "headers",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "responseUrl",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "redirectList",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "retry",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1130,
+        "y": 180,
+        "wires": [["14d9b33db857ad02"]]
+    },
+    {
         "id": "146aa1b45c9060a5",
         "type": "inject",
         "z": "56cb5db772fc3848",
         "g": "302fdc27221dc26e",
         "name": "",
-        "props": [],
+        "props": [
+            {
+                "p": "__timer",
+                "v": "true",
+                "vt": "bool"
+            }
+        ],
         "repeat": "",
         "crontab": "",
         "once": false,
@@ -12304,7 +13057,7 @@
         "z": "56cb5db772fc3848",
         "g": "302fdc27221dc26e",
         "name": "storeEnv2Context",
-        "func": "for (const [key, value] of Object.entries(msg)){\n    if([\"_msgid\", \"payload\", \"topic\"].includes(key)){\n        continue;\n    }\n    flow.set(key,value);\n}\n\nflow.set('device', `${global.get('global__instance')}.${msg.deviceName}`);\nflow.set('mappingPath', `${global.get('global__instance')}.${msg.deviceName}.mapping`);\nflow.set('infoPath', `${global.get('global__instance')}.${msg.deviceName}.info`);\n\nmsg.parts_org = msg.parts;\n\nreturn msg;",
+        "func": "for (const [key, value] of Object.entries(msg.__flow)){\n    flow.set(key,value);\n}\n\nflow.set('device', `${global.get('global__instance')}.${msg.__flow.deviceName}`);\nflow.set('mappingPath', `${global.get('global__instance')}.${msg.__flow.deviceName}.mapping`);\nflow.set('infoPath', `${global.get('global__instance')}.${msg.__flow.deviceName}.info`);\n\ndelete msg.__flow;\n\nmsg.parts_org = msg.parts;\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -12321,7 +13074,13 @@
         "z": "56cb5db772fc3848",
         "g": "d632100434f155f7",
         "name": "refersh Conifg",
-        "props": [],
+        "props": [
+            {
+                "p": "__timer",
+                "v": "true",
+                "vt": "bool"
+            }
+        ],
         "repeat": "900",
         "crontab": "",
         "once": true,
@@ -12329,7 +13088,7 @@
         "topic": "",
         "x": 140,
         "y": 580,
-        "wires": [["7ac3219a6dfa8a5f", "b7b1dd7e47289b9d"]]
+        "wires": [["b7b1dd7e47289b9d"]]
     },
     {
         "id": "3374e25bff1a6346",
@@ -14949,7 +15708,7 @@
         "z": "56cb5db772fc3848",
         "g": "a36b255dfe72b7b4",
         "name": "cons",
-        "func": "// consolidate switch data\n\nconst switchData = {}\nmsg.payload.forEach(e => {\n    Object.entries(e).forEach(([key,value]) => {\n        switchData[key] = value;\n    })\n})\n\nflow.set(`${msg.ConfigFunctionName}_SwitchesList`, switchData)\nmsg.payload = {}\nmsg.switchesList = switchData\n\nreturn msg;",
+        "func": "// consolidate switch data\n\nconst switchData = {}\nmsg.payload.forEach(e => {\n    Object.entries(e).forEach(([key,value]) => {\n        switchData[key] = value;\n    })\n})\n\n//flow.set(`${msg.ConfigFunctionName}_SwitchesList`, switchData)\nmsg.payload = {}\n//msg.switchesList = switchData\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -15972,7 +16731,7 @@
         "swaggerDoc": "",
         "x": 120,
         "y": 640,
-        "wires": [["7ac3219a6dfa8a5f", "c2531f9a5b5b4de4"]]
+        "wires": [["c2531f9a5b5b4de4", "b7b1dd7e47289b9d"]]
     },
     {
         "id": "c2531f9a5b5b4de4",
@@ -15983,7 +16742,7 @@
         "statusCode": "",
         "headers": {},
         "x": 150,
-        "y": 720,
+        "y": 740,
         "wires": []
     },
     {
@@ -17002,14 +17761,14 @@
         "rules": [
             {
                 "t": "set",
-                "p": "deviceName",
+                "p": "__flow.deviceName",
                 "pt": "msg",
                 "to": "SwitchConsumerMapping",
                 "tot": "str"
             },
             {
                 "t": "set",
-                "p": "initFinished",
+                "p": "__flow.initFinished",
                 "pt": "msg",
                 "to": "false",
                 "tot": "bool"
@@ -17360,6 +18119,11 @@
                 "pt": "flow",
                 "to": "payload",
                 "tot": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
             }
         ],
         "action": "",
@@ -17421,9 +18185,9 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1150,
+        "x": 1070,
         "y": 60,
-        "wires": [["d260ab89f0e74a0a"]]
+        "wires": [["8146631b5744b5e1"]]
     },
     {
         "id": "05aa48719cfb1121",
@@ -17431,7 +18195,13 @@
         "z": "56cb5db772fc3848",
         "g": "2b87b7793c66ec0f",
         "name": "init Conifg",
-        "props": [],
+        "props": [
+            {
+                "p": "__timer",
+                "v": "true",
+                "vt": "bool"
+            }
+        ],
         "repeat": "",
         "crontab": "00 03 * * *",
         "once": false,
@@ -17450,20 +18220,8 @@
         "links": [],
         "x": 630,
         "y": 240,
-        "wires": [["0918b3c9f4bc79bb", "acc1a59ce1d8af73"]],
+        "wires": [["acc1a59ce1d8af73"]],
         "l": true
-    },
-    {
-        "id": "0918b3c9f4bc79bb",
-        "type": "link out",
-        "z": "56cb5db772fc3848",
-        "g": "2b87b7793c66ec0f",
-        "name": "link out 37",
-        "mode": "return",
-        "links": [],
-        "x": 765,
-        "y": 240,
-        "wires": []
     },
     {
         "id": "6b6ea078c473a08e",
@@ -17507,7 +18265,7 @@
         "timeout": "30",
         "x": 1300,
         "y": 340,
-        "wires": [["ee629edabccab52d"]]
+        "wires": [["04a33b37e51d59bd"]]
     },
     {
         "id": "c39c76c74f8a87e3",
@@ -17593,7 +18351,7 @@
         "name": "link out 64",
         "mode": "return",
         "links": [],
-        "x": 1545,
+        "x": 1835,
         "y": 340,
         "wires": []
     },
@@ -17637,6 +18395,11 @@
                 "pt": "msg",
                 "to": "org_payload.filter",
                 "tot": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "org_payload",
+                "pt": "msg"
             }
         ],
         "action": "",
@@ -17644,7 +18407,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 880,
+        "x": 860,
         "y": 420,
         "wires": [["193384e8daca74bb"]]
     },
@@ -17659,7 +18422,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1040,
+        "x": 1020,
         "y": 420,
         "wires": [["f8558688a0bfe3bf"]]
     },
@@ -17673,24 +18436,7 @@
         "timeout": "30",
         "x": 1320,
         "y": 420,
-        "wires": [["3e767d6a3cafd231", "678731589fa95e91"]]
-    },
-    {
-        "id": "678731589fa95e91",
-        "type": "debug",
-        "z": "56cb5db772fc3848",
-        "name": "debug 22",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1720,
-        "y": 460,
-        "wires": []
+        "wires": [["3e767d6a3cafd231"]]
     },
     {
         "id": "656094c3826ef34d",
@@ -17703,7 +18449,7 @@
         "arraySpltType": "len",
         "stream": false,
         "addname": "",
-        "x": 750,
+        "x": 730,
         "y": 420,
         "wires": [["1ee4023a7842feca"]]
     },
@@ -17723,9 +18469,9 @@
         "timeout": "",
         "count": "",
         "reduceRight": false,
-        "x": 1490,
-        "y": 480,
-        "wires": [[]]
+        "x": 1570,
+        "y": 420,
+        "wires": [["9696481f1b3fdabd", "906d893227452641"]]
     },
     {
         "id": "b7b1dd7e47289b9d",
@@ -17741,6 +18487,321 @@
         "x": 590,
         "y": 420,
         "wires": [["656094c3826ef34d"]]
+    },
+    {
+        "id": "04a33b37e51d59bd",
+        "type": "switch",
+        "z": "56cb5db772fc3848",
+        "g": "2b87b7793c66ec0f",
+        "name": "not timer",
+        "property": "__timer",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "null"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1600,
+        "y": 340,
+        "wires": [["3a378557904cc770"]]
+    },
+    {
+        "id": "8146631b5744b5e1",
+        "type": "switch",
+        "z": "56cb5db772fc3848",
+        "g": "302fdc27221dc26e",
+        "name": "not timer",
+        "property": "timer",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "null"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1200,
+        "y": 60,
+        "wires": [["d260ab89f0e74a0a"]]
+    },
+    {
+        "id": "3a378557904cc770",
+        "type": "change",
+        "z": "56cb5db772fc3848",
+        "g": "2b87b7793c66ec0f",
+        "name": "clean",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1730,
+        "y": 340,
+        "wires": [["ee629edabccab52d"]]
+    },
+    {
+        "id": "9696481f1b3fdabd",
+        "type": "function",
+        "z": "56cb5db772fc3848",
+        "name": "cons",
+        "func": "// consolidate switch data\nObject.entries(msg.payload).forEach(([configFunctionName, configfunctions]) => {\n    const switchData = {}\n    if (configfunctions) {\n        Object.values(configfunctions).forEach(perDeviceType => {\n            if (perDeviceType) {\n                Object.entries(perDeviceType).forEach(([key, value]) => {\n                    switchData[key] = value;\n                })\n            }\n        })\n        flow.set(`${configFunctionName}_SwitchesList`, switchData)\n    }\n})\n\nmsg.payload = {}\n//msg.switchesList = switchData\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1690,
+        "y": 420,
+        "wires": [["5c7cb69318f25613"]]
+    },
+    {
+        "id": "5c7cb69318f25613",
+        "type": "function",
+        "z": "56cb5db772fc3848",
+        "name": "<-- ConfigFn",
+        "func": "msg.payload = {}\nflow.get('ConfigFunctions').forEach(e => { msg.payload[e.ConfigFunctionName] = e});\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 460,
+        "wires": [["19707ebae385e311"]]
+    },
+    {
+        "id": "19707ebae385e311",
+        "type": "split",
+        "z": "56cb5db772fc3848",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 730,
+        "y": 460,
+        "wires": [["89393fc2f084faa9"]]
+    },
+    {
+        "id": "89393fc2f084faa9",
+        "type": "change",
+        "z": "56cb5db772fc3848",
+        "name": "command",
+        "rules": [
+            {
+                "t": "set",
+                "p": "org_payload",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "payload.command",
+                "pt": "msg",
+                "to": "get_consumers",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.devicePayload",
+                "pt": "msg",
+                "to": "org_payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.searchFilter",
+                "pt": "msg",
+                "to": "org_payload.filter",
+                "tot": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "org_payload",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 460,
+        "wires": [["e98d918847f36f0a"]]
+    },
+    {
+        "id": "e98d918847f36f0a",
+        "type": "function",
+        "z": "56cb5db772fc3848",
+        "name": "consumers Devices",
+        "func": "msg.payload.deviceFilter = msg.payload.devicePayload.consumers.map(e => e.charAt(0).toUpperCase() + e.slice(1));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1030,
+        "y": 460,
+        "wires": [["0f05ba1e72e3e4a6"]]
+    },
+    {
+        "id": "0f05ba1e72e3e4a6",
+        "type": "link call",
+        "z": "56cb5db772fc3848",
+        "name": "",
+        "links": ["047bc5bad6c2891c"],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 1320,
+        "y": 460,
+        "wires": [["6f0584b5468f0a1d"]]
+    },
+    {
+        "id": "6f0584b5468f0a1d",
+        "type": "join",
+        "z": "56cb5db772fc3848",
+        "name": "",
+        "mode": "auto",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": "false",
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "x": 1570,
+        "y": 460,
+        "wires": [["9e315e13241f5878"]]
+    },
+    {
+        "id": "906d893227452641",
+        "type": "debug",
+        "z": "56cb5db772fc3848",
+        "name": "debug 39",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1920,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "9e315e13241f5878",
+        "type": "function",
+        "z": "56cb5db772fc3848",
+        "name": "cons",
+        "func": "// consolidate comsumer data\nObject.entries(msg.payload).forEach(([configFunctionName, configfunctions]) => {\n    const consumerData = {}\n    if (configfunctions) {\n        Object.values(configfunctions).forEach(perDeviceType => {\n            if (perDeviceType) {\n                Object.entries(perDeviceType).forEach(([key, value]) => {\n                    consumerData[key] = value;\n                })\n            }\n        })\n        flow.set(`${configFunctionName}_ConsumersList`, consumerData)\n    }\n})\n\nmsg.payload = {}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 500,
+        "wires": [["9ace790af20da33e"]]
+    },
+    {
+        "id": "9ace790af20da33e",
+        "type": "switch",
+        "z": "56cb5db772fc3848",
+        "name": "init finished",
+        "property": "initFinished",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "false"
+            },
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 750,
+        "y": 500,
+        "wires": [["065e733ac0dd8634"], []],
+        "outputLabels": ["init false", "init true"]
+    },
+    {
+        "id": "065e733ac0dd8634",
+        "type": "change",
+        "z": "56cb5db772fc3848",
+        "name": "refreshProcess",
+        "rules": [
+            {
+                "t": "set",
+                "p": "refreshProcess",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 940,
+        "y": 500,
+        "wires": [["5a6dac91a084cf66"]]
+    },
+    {
+        "id": "5a6dac91a084cf66",
+        "type": "link call",
+        "z": "56cb5db772fc3848",
+        "name": "",
+        "links": ["35c63c08ed7e4f72"],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 1150,
+        "y": 500,
+        "wires": [["81fa04412122a783"]]
+    },
+    {
+        "id": "81fa04412122a783",
+        "type": "function",
+        "z": "56cb5db772fc3848",
+        "name": "end",
+        "func": "if(msg.error){\n    node.status({\n        \"fill\": \"red\",\n        \"shape\": \"ring\",\n        \"text\": `init finished with Error - ${msg.error}`\n    })\n} else {\n    node.status({\n        \"fill\": \"green\",\n        \"shape\": \"ring\",\n        \"text\": `init finished`\n    })\n}",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 500,
+        "wires": []
     },
     {
         "id": "d2c36b46787171cd",
